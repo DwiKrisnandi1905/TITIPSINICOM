@@ -21,8 +21,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto" style="display: inline-flex; align-items: flex-start; gap: 52px;">
-                    <a class="nav-link active" style="color: #000; font-family: Poppins; font-size: 24px; font-style: normal; font-weight: 500; line-height: normal;" href="#">Home</a>
-                    <a class="nav-link active" style="color: #000; font-family: Poppins; font-size: 24px; font-style: normal; font-weight: 500; line-height: normal;" href="#">About</a>
+                    <a class="nav-link active" style="color: #000; font-family: Poppins; font-size: 24px; font-style: normal; font-weight: 500; line-height: normal;" href="/">Home</a>
+                    <a class="nav-link active" style="color: #000; font-family: Poppins; font-size: 24px; font-style: normal; font-weight: 500; line-height: normal;" href="/about">About</a>
                     <a class="nav-link active" style="color: #000; font-family: Poppins; font-size: 24px; font-style: normal; font-weight: 500; line-height: normal;" href="#">Service</a>
                     <a class="nav-link active" style="color: #000; font-family: Poppins; font-size: 24px; font-style: normal; font-weight: 500; line-height: normal;" href="#">Contact Us</a>
                 </div>
