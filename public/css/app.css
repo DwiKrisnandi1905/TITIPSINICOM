@@ -1,6 +1,11 @@
-/* .container {
-    margin-top: 15px;
-} */
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
 
 .bg-secondary {
     background-color: white !important;
@@ -11,8 +16,15 @@
 }
 
 .img-title {
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.user-login {
+    margin-top: 7px;
+    width: 20px;
+    height: 20px;
 }
 
 nav{
