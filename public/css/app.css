@@ -1,5 +1,13 @@
+/* .container {
+    margin-top: 15px;
+} */
+
 .bg-secondary {
     background-color: white !important;
+}
+
+.bg-primary {
+    background-color: #00B56A !important;
 }
 
 .img-title {
@@ -9,20 +17,4 @@
 
 nav{
     font-weight: 700;
-}
-
-.img-card{
-    height: 18vw;
-    object-fit: cover;
-} 
-
-.caption {
-    position: absolute;
-	left:140px;
-	top: 200px;
-
-	font-family: 'Poppins';
-	font-style: normal;
-	font-weight: 500;
-	font-size: 32px;
 }

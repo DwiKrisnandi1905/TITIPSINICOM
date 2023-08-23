@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $viewData = [];
-    $viewData["title"] = "Home Page - Online Store";
+    $viewData["title"] = "Home";
     return view('home.index')->with("viewData", $viewData);
 });
 
