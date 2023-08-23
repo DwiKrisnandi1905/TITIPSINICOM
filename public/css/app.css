@@ -1,17 +1,14 @@
 .bg-secondary {
-    background-color: red !important;
+    background-color: white !important;
 }
 
-.copyright {
-    background-color: #1a252f;
+.img-title {
+    width: 70px;
+    height: 70px;
 }
 
 nav{
     font-weight: 700;
-}
-
-.title {
-    
 }
 
 .img-card{
