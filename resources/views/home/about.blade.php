@@ -2,14 +2,15 @@
 @section('title', $title)
 @section('subtitle', $subtitle)
 @section('content')
-<div class="container">
-    <div class="row">
-        <div class="col-lg-4 ms-auto">
-            <p class="lead">{{ $description }}</p>
-        </div>
-        <div class="col-lg-4 me-auto">
-            <p class="lead">{{ $author }}</p>
-        </div>
-    </div>
+<link href="{{ asset('/css/app.css') }}" rel="stylesheet" />
+<div class="about">
+    <img src="{{ asset('img/Gambarabout.png') }}" alt="Gambarabout">
+    <h2>Layanan Penitipan Pertama<br/>di Indonesia yang
+Ada dan <br> Dipercaya Kredibilitasnya</h2>
+    <p>Kami menyediakan jasa penitipan bagi anda yang ingin <br> 
+    menitipkan barang. Selain itu, kami juga menyediakan <br> 
+    layanan penitipan bangunan seperti rumah maupun <br> 
+    gedung. Tersedia juga layanan penitipan kendaraan. <br> 
+    Hadir di 3 Kota Besar Indonesia.</p>
 </div>
 @endsection

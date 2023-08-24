@@ -30,3 +30,45 @@ body {
 nav{
     font-weight: 700;
 }
+
+/*tentang*/
+.about {
+  
+    text-align: center;
+    width: 608px;
+}
+
+.about img {
+    width: 450px; 
+    height: auto;
+    margin-top: 20px;
+    margin-left: -150px; 
+}
+
+.about h2 {
+    color: #000;
+font-family: 'Raleway';
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: left;
+
+position: absolute; 
+top: 220px; 
+left: 600px; 
+}
+
+.about p {
+    color: #000;
+font-family: 'Raleway';
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: left;
+
+position: absolute; 
+top: 380px; 
+left: 600px; 
+}
