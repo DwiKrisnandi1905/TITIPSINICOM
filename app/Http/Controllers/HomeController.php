@@ -14,11 +14,9 @@ class HomeController extends Controller
     }
     public function about()
     {
-        $data1 = "About";
-        $data2 = "About us";
-        return view('home.about')
-            ->with("title", $data1)
-            ->with("subtitle", $data2);
+        $viewData = [];
+        $viewData["title"] = "About";
+        return view('home.about')->with("viewData", $viewData);
     }
     public function service()
     {
