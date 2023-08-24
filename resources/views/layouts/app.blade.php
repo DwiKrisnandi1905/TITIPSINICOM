@@ -59,27 +59,33 @@
                 </div>
                 <div class="col-md">
                     <ul class="list-unstyled nav-links">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#" style="font-family: Poppins; font-size: 18px; font-style: normal; font-weight: 500; line-height: normal; color: #fff">Produk</a></li>
+                        <li><a href="#">Syarat & Ketentuan</a></li>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                        <li><a href="#">FAQ</a></li>
                     </ul>
                 </div>
                 <div class="col-md">
                     <ul class="list-unstyled nav-links">
-                        <li><a href="#">Clients</a></li>
-                        <li><a href="#">Team</a></li>
-                        <li><a href="#">Career</a></li>
-                        <li><a href="#">Testimonials</a></li>
-                        <li><a href="#">Journal</a></li>
+                        <li><a href="#" style="font-family: Poppins; font-size: 18px; font-style: normal; font-weight: 500; line-height: normal; color: #fff">Perusahaan</a></li>
+                        <li><a href="#">Tentang Kami</a></li>
+                        <li><a href="#">Kontak Kami</a></li>
                     </ul>
                 </div>
                 <div class="col-md">
                     <ul class="list-unstyled nav-links">
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms &amp; Conditions</a></li>
-                        <li><a href="#">Partners</a></li>
+                        <div class="row">
+                            <li>
+                                <i class="bi bi-facebook"></i>
+                                <a href="#">Facebook</a>
+                            </li>
+                        </div>
+                        <div class="row">
+                            <li><a href="#">Twitter</a></li>   
+                        </div>
+                        <div class="row">
+                            <li><a href="#">Instagram</a></li>
+                        </div>
                     </ul>
                 </div>
                 <div class="col-md text-md-center">
