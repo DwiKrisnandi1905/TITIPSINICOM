@@ -39,9 +39,11 @@
     </nav>
     <!-- header -->
 
+    <!-- content -->
     <div class="container my-5">
         @yield('content')
     </div>
+    <!-- content -->
 
     <!-- footer -->
     <footer class="footer-48201">
@@ -67,7 +69,7 @@
                 </div>
                 <div class="col-md">
                     <ul class="list-unstyled nav-links">
-                        <li><a href="#" style="font-family: Poppins; font-size: 18px; font-style: normal; font-weight: 500; line-height: normal; color: #fff">Perusahaan</a></li>
+                        <li><a href="#" style="font-family: Poppins; font-size: 18px; font-style: normal; font-weight: 500; line-height: normal; color: #fff;">Perusahaan</a></li>
                         <li><a href="#">Tentang Kami</a></li>
                         <li><a href="#">Kontak Kami</a></li>
                     </ul>
@@ -84,7 +86,7 @@
                             <li>
                                 <i class="bi bi-twitter" style="margin-right: 10px;"></i>
                                 <a href="#">Twitter</a>
-                            </li>   
+                            </li>
                         </div>
                         <div class="row">
                             <li>
@@ -95,14 +97,12 @@
                     </ul>
                 </div>
                 <div class="col-md text-md-center">
-                    <ul class="social list-unstyled">
-                        <li><a href="#"><span class="icon-instagram"></span></a></li>
-                        <li><a href="#"><span class="icon-twitter"></span></a></li>
-                        <li><a href="#"><span class="icon-facebook"></span></a></li>
-                        <li><a href="#"><span class="icon-pinterest"></span></a></li>
-                        <li><a href="#"><span class="icon-dribbble"></span></a></li>
-                    </ul>
-                    <p class=""><a href="#" class="btn btn-tertiary">Contact Us</a></p>
+                    <a href="#">
+                        <img src="{{ asset('/img/getplay.png') }}" alt="Google Play"  style="margin-bottom: 20px; margin-left: -70px">
+                    </a>
+                    <a href="#">
+                        <img src="{{ asset('/img/getapps.png') }}" alt="Apple App" style="margin-left: -70px">
+                    </a>
                 </div>
             </div>
         </div>
