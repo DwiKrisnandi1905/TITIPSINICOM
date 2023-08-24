@@ -235,22 +235,25 @@ a, a:hover {
     color: #000;
     text-align: center;
     font-family: Raleway;
-    font-size: 32px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-top: -40px;
 }
 
 .card {
-    width: 300px;
+    width: 250px;
+    height: 350px;
     background-color: #fff;
     border-radius: 8px;
     border: 2px solid #00cc00;
     margin: 10px;
     padding: 20px;
     text-align: center;
-    top: 50px;
-    left: 100px;
+    top: 20px;
+    left: 160px;
+    overflow: hidden;
 }
 .card img {
     width: 70px;
