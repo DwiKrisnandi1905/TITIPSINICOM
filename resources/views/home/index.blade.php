@@ -52,7 +52,7 @@
     <section>
         <div class="container-beranda-2">
             <h2 style="font-weight:700; font-size: 32px;">Tunggu Apalagi?</h2>
-            <h2 style="font-weight:700; font-size: 32px">Ayo Buruan Download Titipsini Sekarang!</h2>
+            <h2 style="font-weight:700; font-size: 32px">Ayo Buruan Download <span style="color: #068113">Titipsini</span> Sekarang!</h2>
             <p style="margin-top: 35px; margin-bottom: 35px; font-size: 18px">Semua bisa dititipkan termasuk barang, rumah atau kendaraan.</p>
             <a href="#" class="btn-beranda-2">Download Sekarang</a>
         </div>
