@@ -13,16 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-<<<<<<< HEAD
-Route::get('/', function () {
-    $viewData = [];
-    $viewData["title"] = "Home";
-    return view('home.index')->with("viewData", $viewData);
-});
-
-Route::get('/about', 'App\Http\Controllers\HomeController@about')->name("home.about");
-=======
 Route::get('/', 'App\Http\Controllers\HomeController@index')->name("home.index");
 Route::get('/about', 'App\Http\Controllers\HomeController@about')->name("home.about"); 
-Route::get('/about', 'App\Http\Controllers\HomeController@about')->name("home.about"); 
->>>>>>> d06056099888ac56cce6f1123badd0942ccafb5b

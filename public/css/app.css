@@ -61,14 +61,8 @@ nav{
     font-weight: 700;
 }
 
-<<<<<<< HEAD
 /*tentang*/
-body, h2, p {
-    margin: 0;
-    padding: 0;
-}
-
-.container {
+.container-tentang {
     display: flex;
     flex-direction: row; 
     align-items: center;
@@ -119,7 +113,7 @@ body, h2, p {
         text-align: center; 
     }
 }
-=======
+
 /* footer */
 .circle2 {
     width: 10px;
@@ -211,4 +205,3 @@ a, a:hover {
     border-top: 1px solid #404040; 
 }
   
->>>>>>> d06056099888ac56cce6f1123badd0942ccafb5b
