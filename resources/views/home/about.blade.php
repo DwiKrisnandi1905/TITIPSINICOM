@@ -11,7 +11,7 @@
     <title>Responsive Layout with PHP</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container2">
         <div class="image">
         <img src="{{ asset('img/Gambarabout.png') }}" alt="Gambarabout">
         </div>
