@@ -30,7 +30,7 @@
                 <div class="navbar-nav ms-auto" style="display: inline-flex; align-items: flex-start; gap: 52px;">
                     <a class="nav-link active" style="color: #000; font-family: Raleway; font-size: 18px; font-style: normal; font-weight: 500; line-height: normal;" href="/">Beranda</a>
                     <a class="nav-link active" style="color: #000; font-family: Raleway; font-size: 18px; font-style: normal; font-weight: 500; line-height: normal;" href="/about">Tentang</a>
-                    <a class="nav-link active" style="color: #000; font-family: Raleway; font-size: 18px; font-style: normal; font-weight: 500; line-height: normal;" href="#">Layanan</a>
+                    <a class="nav-link active" style="color: #000; font-family: Raleway; font-size: 18px; font-style: normal; font-weight: 500; line-height: normal;" href="/service">Layanan</a>
                     <a class="nav-link active" style="color: #000; font-family: Raleway; font-size: 18px; font-style: normal; font-weight: 500; line-height: normal;" href="#">FAQ</a>
                     <a href="#"><img src="{{ asset('/img/User_fill.png') }}" class="user-login"></a>
                 </div>
@@ -76,15 +76,21 @@
                     <ul class="list-unstyled nav-links">
                         <div class="row">
                             <li>
-                                <i class="bi bi-facebook"></i>
+                                <i class="bi bi-facebook" style="margin-right: 10px;"></i>
                                 <a href="#">Facebook</a>
                             </li>
                         </div>
                         <div class="row">
-                            <li><a href="#">Twitter</a></li>   
+                            <li>
+                                <i class="bi bi-twitter" style="margin-right: 10px;"></i>
+                                <a href="#">Twitter</a>
+                            </li>   
                         </div>
                         <div class="row">
-                            <li><a href="#">Instagram</a></li>
+                            <li>
+                                <i class="bi bi-instagram" style="margin-right: 10px;"></i>
+                                <a href="#">Instagram</a>
+                            </li>
                         </div>
                     </ul>
                 </div>
