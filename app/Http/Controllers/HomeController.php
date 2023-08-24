@@ -19,4 +19,5 @@ class HomeController extends Controller
         return view('home.about')->with("title", $data1)
             ->with("subtitle", $data2);
     }
+    
 }
