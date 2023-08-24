@@ -32,43 +32,59 @@ nav{
 }
 
 /*tentang*/
-.about {
-  
-    text-align: center;
-    width: 608px;
+body, h2, p {
+    margin: 0;
+    padding: 0;
 }
 
-.about img {
-    width: 450px; 
+.container {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    padding: 20px;
+}
+
+.image {
+    flex: 1; 
+    padding-right: 20px;
+}
+
+.image img {
+    max-width: 100%;
     height: auto;
-    margin-top: 20px;
-    margin-left: -150px; 
+    width: 100%; 
+
 }
 
-.about h2 {
+.text {
+    flex: 2;
+}
+.text h2 {
     color: #000;
-font-family: 'Raleway';
-font-size: 35px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-align: left;
-
-position: absolute; 
-top: 220px; 
-left: 600px; 
+    font-family: Raleway;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
 }
 
-.about p {
+.text p {
     color: #000;
-font-family: 'Raleway';
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-text-align: left;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
-position: absolute; 
-top: 380px; 
-left: 600px; 
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; 
+    }
+
+    .image, .text {
+        padding: 0; 
+        text-align: center; 
+    }
 }
