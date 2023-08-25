@@ -32,7 +32,7 @@
                     <a class="navigasi" href="/about">Tentang</a>
                     <a class="navigasi" href="/service">Layanan</a>
                     <a class="navigasi" href="/faq">FAQ</a>
-                    <a href="#"><img src="{{ asset('/img/User_fill.png') }}" class="user-login"></a>
+                    <a class="navigasi" href="#"><i class="bi bi-person-fill"></i></a>
                 </div>
             </div>
         </div>
@@ -64,7 +64,7 @@
                         <li><a href="#" style="font-family: Poppins; font-size: 18px; font-style: normal; font-weight: 500; line-height: normal; color: #fff">Produk</a></li>
                         <li><a href="{{ route('home.syaratketentuan') }}">Syarat & Ketentuan</a></li>
                         <li><a href="#">Kebijakan Privasi</a></li>
-                        <li><a href="#">FAQ</a></li>
+                        <li><a href="/faq">FAQ</a></li>
                     </ul>
                 </div>
                 <div class="col-md">
