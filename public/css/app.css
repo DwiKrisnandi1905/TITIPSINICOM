@@ -358,11 +358,7 @@ a, a:hover {
 }
 
 .card {
-<<<<<<< Updated upstream
     width: 240px;
-=======
-    width: 230px;
->>>>>>> Stashed changes
     height: 350px;
     background-color: #fff;
     border-radius: 15px;
@@ -370,13 +366,7 @@ a, a:hover {
     margin: 30px;
     padding: 20px;
     text-align: center;
-<<<<<<< Updated upstream
-    top: 4%;
-    left: 120px;
-=======
-    top: 40px;
-    left: 160px;
->>>>>>> Stashed changes
+    left: 115px;
     overflow: hidden;
 }
 .card img {
