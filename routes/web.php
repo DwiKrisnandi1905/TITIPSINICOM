@@ -17,5 +17,6 @@ Route::get('/about', 'App\Http\Controllers\HomeController@about')->name("home.ab
 Route::get('/service', 'App\Http\Controllers\HomeController@service')->name("home.service"); 
 Route::get('/faq', 'App\Http\Controllers\HomeController@faq')->name("home.faq");
 Route::get('/syaratketentuan', 'App\Http\Controllers\HomeController@syaratketentuan')->name("home.syaratketentuan");
+Route::get('/privacypolicy', 'App\Http\Controllers\HomeController@privacypolicy')->name("home.privacypolicy");
 
 

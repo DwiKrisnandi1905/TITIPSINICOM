@@ -36,4 +36,10 @@ class HomeController extends Controller
         $viewData["title"] = "Syaratketentuan";
         return view('home.syaratketentuan')->with("viewData", $viewData);
     }
+    public function privacypolicy()
+    {
+        $viewData = [];
+        $viewData["title"] = "Privacy & Policy";
+        return view('home.privacypolicy')->with("viewData", $viewData);
+    }
 }

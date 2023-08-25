@@ -28,11 +28,21 @@
 
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto" style="display: inline-flex; align-items: flex-start; gap: 52px;">
-                    <a class="navigasi" href="/">Beranda</a>
-                    <a class="navigasi" href="/about">Tentang</a>
-                    <a class="navigasi" href="/service">Layanan</a>
-                    <a class="navigasi" href="/faq">FAQ</a>
-                    <a class="navigasi" href="#"><i class="bi bi-person-fill"></i></a>
+                    <li class="nav-item {{ Request::is('/') ? 'active-page' : '' }}">
+                        <a class="navigasi" href="/">Beranda</a>
+                    </li>
+                    <li class="nav-item {{ Request::is('about') ? 'active-page' : '' }}">
+                        <a class="navigasi" href="/about">Tentang</a>
+                    </li>
+                    <li class="nav-item {{ Request::is('service') ? 'active-page' : '' }}">
+                        <a class="navigasi" href="/service">Layanan</a>
+                    </li>
+                    <li class="nav-item {{ Request::is('faq') ? 'active-page' : '' }}">
+                        <a class="navigasi" href="/faq">FAQ</a>
+                    </li>
+                    <li class="nav-item {{ Request::is('#') ? 'active-page' : '' }}">
+                        <a class="navigasi" href="#"><i class="bi bi-person-fill"></i></a>
+                    </li>
                 </div>
             </div>
         </div>
@@ -47,7 +57,6 @@
 
     <!-- footer -->
     <footer class="footer-48201">
-
         <div class="container">
             <div class="row">
                 <div class="col-md-4 pr-md-5">
@@ -63,14 +72,14 @@
                     <ul class="list-unstyled nav-links">
                         <li><a href="#" style="font-family: Poppins; font-size: 18px; font-style: normal; font-weight: 500; line-height: normal; color: #fff">Produk</a></li>
                         <li><a href="{{ route('home.syaratketentuan') }}">Syarat & Ketentuan</a></li>
-                        <li><a href="#">Kebijakan Privasi</a></li>
+                        <li><a href="/privacypolicy">Kebijakan Privasi</a></li>
                         <li><a href="/faq">FAQ</a></li>
                     </ul>
                 </div>
                 <div class="col-md">
                     <ul class="list-unstyled nav-links">
                         <li><a href="#" style="font-family: Poppins; font-size: 18px; font-style: normal; font-weight: 500; line-height: normal; color: #fff;">Perusahaan</a></li>
-                        <li><a href="#">Tentang Kami</a></li>
+                        <li><a href="/about">Tentang Kami</a></li>
                         <li><a href="#">Kontak Kami</a></li>
                     </ul>
                 </div>

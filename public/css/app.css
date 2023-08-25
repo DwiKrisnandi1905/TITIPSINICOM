@@ -8,6 +8,10 @@ body {
     padding-top: 80px;
 }
 
+.active-page a{
+    color: #068113;
+}
+
 /* navbar */
 .border-bottom {
     position: fixed;
@@ -265,6 +269,18 @@ nav{
     background: #D9D9D9;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     flex-direction: column;
+}
+
+/* privacy & policy */
+.container-privacy {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.container-policy {
+    width: 80%;
 }
 
 /* footer */
