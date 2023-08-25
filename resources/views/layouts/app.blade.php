@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap">
     <link href="{{ asset('/css/app.css') }}" rel="stylesheet" />
     <link rel="icon" href="{{ asset('/img/logo1.png') }}" type="image/png">
-    <title>@yield('title', 'Online Store')</title>
+    <title>@yield('title', 'Titipsini')</title>
 </head>
 
 <body>
