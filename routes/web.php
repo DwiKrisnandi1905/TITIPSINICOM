@@ -19,4 +19,6 @@ Route::get('/faq', 'App\Http\Controllers\HomeController@faq')->name("home.faq");
 Route::get('/syaratketentuan', 'App\Http\Controllers\HomeController@syaratketentuan')->name("home.syaratketentuan");
 Route::get('/privacypolicy', 'App\Http\Controllers\HomeController@privacypolicy')->name("home.privacypolicy");
 
+Route::get('/contact', 'App\Http\Controllers\ContactController@index')->name("contact.index");
+
 

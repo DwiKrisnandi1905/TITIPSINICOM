@@ -80,7 +80,7 @@
                     <ul class="list-unstyled nav-links">
                         <li><a href="#" style="font-family: Poppins; font-size: 18px; font-style: normal; font-weight: 500; line-height: normal; color: #fff;">Perusahaan</a></li>
                         <li><a href="/about">Tentang Kami</a></li>
-                        <li><a href="#">Kontak Kami</a></li>
+                        <li><a href="/contact">Kontak Kami</a></li>
                     </ul>
                 </div>
                 <div class="col-md">
