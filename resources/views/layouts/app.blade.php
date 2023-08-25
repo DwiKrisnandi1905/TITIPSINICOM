@@ -28,10 +28,10 @@
 
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto" style="display: inline-flex; align-items: flex-start; gap: 52px;">
-                    <a class="nav-link active" style="color: #000; font-family: Raleway; font-size: 18px; font-style: normal; font-weight: 500; line-height: normal;" href="/">Beranda</a>
-                    <a class="nav-link active" style="color: #000; font-family: Raleway; font-size: 18px; font-style: normal; font-weight: 500; line-height: normal;" href="/about">Tentang</a>
-                    <a class="nav-link active" style="color: #000; font-family: Raleway; font-size: 18px; font-style: normal; font-weight: 500; line-height: normal;" href="/service">Layanan</a>
-                    <a class="nav-link active" style="color: #000; font-family: Raleway; font-size: 18px; font-style: normal; font-weight: 500; line-height: normal;" href="#">FAQ</a>
+                    <a class="navigasi" href="/">Beranda</a>
+                    <a class="navigasi" href="/about">Tentang</a>
+                    <a class="navigasi" href="/service">Layanan</a>
+                    <a class="navigasi" href="/faq">FAQ</a>
                     <a href="#"><img src="{{ asset('/img/User_fill.png') }}" class="user-login"></a>
                 </div>
             </div>
@@ -106,7 +106,6 @@
                 </div>
             </div>
         </div>
-
     </footer>
     <!-- footer -->
 
