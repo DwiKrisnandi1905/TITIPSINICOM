@@ -310,11 +310,8 @@ nav{
     margin: 30px;
     padding: 20px;
     text-align: center;
-    left: 115px;
-    top: 4%;
+    top: -5px;
     left: 120px;
-    top: 40px;
-    left: 160px;
     overflow: hidden;
 }
 .card img {
