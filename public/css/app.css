@@ -414,3 +414,20 @@ a, a:hover {
     line-height: normal;
     margin-top: 5px;
 }
+
+/*syarat&ketentuan*/
+.container-syarat h1 {
+    color: #000;
+font-family: 'Poppins';
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.number-list {
+    list-style-type: decimal;
+}
+.span{
+    font-weight: bold;
+}
+
