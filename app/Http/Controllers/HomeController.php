@@ -24,4 +24,10 @@ class HomeController extends Controller
         $viewData["title"] = "Service";
         return view('home.service')->with("viewData", $viewData);
     }
+    public function faq()
+    {
+        $viewData = [];
+        $viewData["title"] = "FAQ";
+        return view('home.faq')->with("viewData", $viewData);
+    }
 }
