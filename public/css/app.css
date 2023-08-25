@@ -18,6 +18,10 @@ body {
     background-color: #fff;
     border-bottom: 1px solid #ccc;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .title-container {
@@ -301,7 +305,11 @@ a, a:hover {
 }
 
 .card {
+<<<<<<< Updated upstream
     width: 240px;
+=======
+    width: 230px;
+>>>>>>> Stashed changes
     height: 350px;
     background-color: #fff;
     border-radius: 15px;
@@ -309,8 +317,13 @@ a, a:hover {
     margin: 30px;
     padding: 20px;
     text-align: center;
+<<<<<<< Updated upstream
     top: 4%;
     left: 120px;
+=======
+    top: 40px;
+    left: 160px;
+>>>>>>> Stashed changes
     overflow: hidden;
 }
 .card img {
