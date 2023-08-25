@@ -324,7 +324,6 @@ a, a:hover {
   
 .content {
     height: 70vh; 
-    
 }
   
 .footer-48201 {
@@ -354,7 +353,6 @@ a, a:hover {
 /*layanan*/
 .container-layanan {
     padding-top: 40px;
-    
 }
 .container-layanan h1 {
     color: #000;
@@ -366,6 +364,7 @@ a, a:hover {
     line-height: normal;
     margin-top: -40px;
 }
+
 .horizontal-line {
     border-top: 1.5px solid #299935;
     margin: 0 auto;
@@ -383,6 +382,10 @@ a, a:hover {
     padding: 20px;
     text-align: center;
     left: 115px;
+    top: 4%;
+    left: 120px;
+    top: 40px;
+    left: 160px;
     overflow: hidden;
 }
 .card img {
@@ -434,11 +437,11 @@ a, a:hover {
 /*syarat&ketentuan*/
 .container-syarat h1 {
     color: #000;
-font-family: 'Poppins';
-font-size: 64px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    font-family: 'Poppins';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 .number-list {
     list-style-type: decimal;
