@@ -62,7 +62,7 @@
                 <div class="col-md">
                     <ul class="list-unstyled nav-links">
                         <li><a href="#" style="font-family: Poppins; font-size: 18px; font-style: normal; font-weight: 500; line-height: normal; color: #fff">Produk</a></li>
-                        <li><a href="#">Syarat & Ketentuan</a></li>
+                        <li><a href="{{ route('home.syaratketentuan') }}">Syarat & Ketentuan</a></li>
                         <li><a href="#">Kebijakan Privasi</a></li>
                         <li><a href="#">FAQ</a></li>
                     </ul>
