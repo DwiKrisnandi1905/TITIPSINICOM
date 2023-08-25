@@ -40,7 +40,7 @@
     <!-- header -->
 
     <!-- content -->
-    <div class="container my-5">
+    <div class="container my-5 main-content">
         @yield('content')
     </div>
     <!-- content -->
