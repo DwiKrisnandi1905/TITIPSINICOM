@@ -279,31 +279,82 @@ a, a:hover {
 
 
 /*layanan*/
+.container-layanan {
+    padding-top: 40px;
+    
+}
 .container-layanan h1 {
     color: #000;
     text-align: center;
     font-family: Raleway;
-    font-size: 28px;
+    font-size: 26px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     margin-top: -40px;
 }
+.horizontal-line {
+    border-top: 1.5px solid #299935;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 10%;
+}
 
 .card {
-    width: 250px;
+    width: 240px;
     height: 350px;
     background-color: #fff;
-    border-radius: 8px;
+    border-radius: 15px;
     border: 2px solid #00cc00;
-    margin: 10px;
+    margin: 30px;
     padding: 20px;
     text-align: center;
-    top: 20px;
-    left: 160px;
+    top: 4%;
+    left: 120px;
     overflow: hidden;
 }
 .card img {
-    width: 70px;
+    width: 60px;
     margin: 0 auto;
+}
+.card h2 {
+    color: #000;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.card p {
+    color: #000;
+    font-family: Raleway;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.card ul {
+    padding: 2;
+}
+.card li {
+    color: #000;
+    font-family: Raleway;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+.card h3 {
+    color: #000;
+    font-family: Raleway;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 5px;
 }
