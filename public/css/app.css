@@ -294,7 +294,7 @@ nav{
     font-size: 16px;
 }
 
-.custom-select:after {
+/* .custom-select:after {
     content: "\f078";
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
@@ -303,7 +303,7 @@ nav{
     right: 285px;
     transform: translateY(-50%);
     color: #98A2B3;
-}
+} */
 
 .btn-kirim {
     background-color: #068113;
@@ -327,10 +327,19 @@ nav{
     color: red;
     font-size: 12px;
     float: left;
+    margin-top: 8px;
+    margin-bottom: 10px;
 }
+
 .input-error {
     border-color: red;
     background-color: #ffdbd9;
+}
+
+.success-message {
+    color: rgb(0, 255, 0);
+    font-size: 12px;
+    float: left;
 }
 
 /*layanan*/

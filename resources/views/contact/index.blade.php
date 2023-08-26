@@ -11,7 +11,7 @@
                 <p style="color: var(--grey-500, #667085); text-align: center; font-size: 16px; font-style: normal; font-weight: 400; line-height: normal; margin-top: 30px">Kami sangat terbuka untuk menerima ide-ide, komentar dan <br>berbagai masukan dari anda. Hubungi kami jika anda memiliki <br> saran dan mengalami kendala.</p>
 
                 <div class="container-contact">
-                    <form>
+                    <form id="contact-form">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -44,12 +44,13 @@
                             <div class="col-md-12">
                                 <div class="form-group mb-3">
                                     <textarea class="form-control" id="pesan" rows="8" placeholder="Pertanyaan Anda..."></textarea>
+                                    <span class="error-message" id="form-error"></span>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12 text-right">
-                                <button type="submit" class="btn-kirim">Kirim Pesan</button>
+                                <button type="button" class="btn-kirim" id="btn-submit">Kirim Pesan</button>
                             </div>
                         </div>
                     </form>
@@ -60,22 +61,51 @@
 </div>
 <script>
     const emailInput = document.getElementById('email');
-        const emailError = document.getElementById('email-error');
+    const emailError = document.getElementById('email-error');
 
-        emailInput.addEventListener('input', function () {
-            if (!isValidEmail(emailInput.value)) {
-                emailError.textContent = 'Gunakan alamat email yang benar.';
-                emailInput.classList.add('input-error'); 
+    emailInput.addEventListener('input', function() {
+        if (!isValidEmail(emailInput.value)) {
+            emailError.textContent = 'Gunakan alamat email yang benar.';
+            emailInput.classList.add('input-error');
+        } else {
+            emailError.textContent = '';
+            emailInput.classList.remove('input-error');
+        }
+    });
+
+    function isValidEmail(email) {
+        // Fungsi untuk memvalidasi format email, Anda bisa menggantinya sesuai kebutuhan
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+    }
+
+    const btnSubmit = document.getElementById('btn-submit');
+    const form = document.getElementById('contact-form');
+    const formError = document.getElementById('form-error');
+
+    btnSubmit.addEventListener('click', function(event) {
+        event.preventDefault(); // Mencegah pengiriman form secara langsung
+
+        // Cek apakah semua input telah diisi
+        const inputs = form.querySelectorAll('input, textarea');
+        let isFormValid = true;
+
+        inputs.forEach(input => {
+            if (!input.value.trim()) {
+                input.classList.add('input-error');
+                isFormValid = false;
             } else {
-                emailError.textContent = '';
-                emailInput.classList.remove('input-error'); 
+                input.classList.remove('input-error');
             }
         });
 
-        function isValidEmail(email) {
-            // Fungsi untuk memvalidasi format email, Anda bisa menggantinya sesuai kebutuhan
-            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-            return emailRegex.test(email);
+        // Tampilkan pesan error di bawah textarea
+        if (!isFormValid) {
+            formError.textContent = 'Mohon mengisi semua kolom yang diperlukan.';
+        } else {
+            formError.textContent = ''; // Hapus pesan error jika form valid
+            form.submit();
         }
+    });
 </script>
 @endsection
