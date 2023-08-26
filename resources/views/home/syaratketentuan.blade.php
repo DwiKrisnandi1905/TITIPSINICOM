@@ -47,30 +47,39 @@
 
     Pendaftaran Akun <br><br>
 
-    TitipGroup tidak memungut biaya pendaftaran apa pun kepada Pengguna.
-    Anda setuju untuk memberikan informasi yang benar, akurat dan lengkap pada akun Anda, termasuk untuk setiap saat menjaga akun Anda dan memastikan rincian pembayaran Anda selalu terbaru dan terkini. Anda bertanggung jawab penuh atas setiap ketidaksesuaian atau kesalahan pernyataan identitas atau informasi yang Anda berikan pada akun Anda. Anda selanjutnya memahami dan menyetujui bahwa kami dapat meminta informasi tambahan, verifikasi, dan persyaratan lain atas penggunaan Anda atas Platform secara berkelanjutan.
-    Kami dapat, atas kebijakan kami sendiri dan tanpa pemberitahuan:
-    Menyaring terlebih dahulu, menghapus atau mengubah setiap daftar terkait Konten, Barang dan/atau Jasa;
-    Menutup, menghapus atau menangguhkaAnda di Platform;
-    Melarang Pengguna manapun untuk menggunakan fitur, perangkat dan/atau jasa spesifik yang tersedia di Platform;
-    Mengakhiri akses Anda dan/atau memblokir akses Anda di masa mendatang ke Platform; dan/atau
-    Mengambil setiap dan semua tindakan yang diperlukan,
-
-    Terhadap kegagalan untuk mematuhi atau terhadap tindakan yang melanggar Ketentuan Penggunaan ini, dan/atau hukum yang berlaku, termasuk jika transaksi yang melibatkan Anda adalah atau diduga curang atau menyesatkan, atau jika Anda tidak memiliki izin dan/atau persetujuan yang diperlukan untuk menjual Barang dan/atau memberikan Jasa yang Anda tawarkan di Platform.
-
-    Anda setuju untuk tidak menggunakan, atau mencoba menggunakan Platform untuk tujuan apa pun yang tidak sah atau dilarang oleh Ketentuan Penggunaan ini atau setiap peraturan perundang-undangan yang berlaku, termasuk namun tidak terbatas pada:
-    Membuat dan/atau menggunakan perangkat keras, perangkat lunak, fitur, dan/atau perangkat lain apa pun untuk tujuan memanipulasi sistem Platform atau membuat salinan Platform atau bagian dari Platform, termasuk manipulasi atas (i) Konten, (ii) kegiatan perambahan (crawling/scraping); (iii) kegiatan otomasi dalam transaksi, jual beli, promosi, dan yang lainnya; (v) penambahan produk ke katalog; dan/atau (v) aktivitas lain yang secara wajar dapat dianggap sebagai tindakan manipulatif terhadap sistem Platform;
-    Menyalahgunakan atau mengganggu pengoperasian Platform atau server atau jaringan yang terhubung ke Platform, termasuk memasang, mengirimkan, mentransmisikan, mengunggah, atau menyediakan materi apa pun yang berisi virus perangkat lunak, worms, atau kode, dokumen, atau program komputer lainnya yang dirancang untuk mengganggu, menghancurkan atau membatasi fungsionalitas perangkat lunak atau perangkat keras komputer atau peralatan telekomunikasi;
-    Mengumpulkan atau 1. menyimpan data pribadi tentang Pengguna Platform lainnya sehubungan dengan perilaku dan aktivitas terlarang yang ditetapkan dalam Ketentuan Penggunaan ini;
-    Menyamar sebagai orang atau entitas apa pun, secara tidak benar menyatakan atau memberikan pernyataan salah tentang afiliasi Anda dengan seseorang atau entitas;
-    Menghapus hak cipta, merek dagang, atau pemberitahuan kepemilikan hak intelektual lainnya dari Platform; dan
-    Mendapatkan akses tidak sah ke bagian atau fitur apa pun dari Platform, termasuk mengambil tindakan apa pun yang berdampak negatif atau menyebabkan ketidaknyamanan bagi Pengguna lain.
-
-    Kami berwenang untuk membuat perubahan terhadap dan/atau menghapus setiap peringkat dan/atau ulasan yang dibuat oleh Pembeli untuk toko online Penjual di Platform, jika peringkat dan/atau ulasan tersebut tidak sesuai dengan Ketentuan Penggunaan ini, termasuk yang mengandung:
-    Setiap bahasa yang tidak pantas atau menyinggung. Bahasa yang tidak pantas atau menyinggung termasuk, namun tidak terbatas pada, segala sesuatu yang bermuatan seksual, kasar, memfitnah, vulgar, cabul, tidak senonoh, dan penuh kebencian atau yang berisi materi yang bersifat rasial, etnis, atau tidak pantas dalam bentuk apa pun;
-    Setiap gambar, video atau konten lainnya yang dengan cara apa pun menunjukkan rasisme, diskriminasi, merendahkan, pelecehan, vulgar, ancaman atau sikap lain yang bertentangan dengan nilai sosial, norma dan peraturan perundang-undangan yang berlaku serta kebijakan yang ditetapkan oleh TitipGroup;
-    Konten yang melecehkan atau secara pribadi menyerang orang lain, termasuk namun tidak terbatas pada tindakan yang melanggar hukum, berbahaya, mengancam, kasar, melecehkan, memfitnah, vulgar, cabul, tidak senonoh, penuh kebencian dan secara rasial, etnis atau tindakan yang tidak menyenangkan tidak diizinkan, atau tindakan lain apa pun yang berpotensi menyebabkan konflik terhadap individu, kelompok, atau lembaga yang berpotensi menimbulkan persaingan tidak sehat; dan/atau
-    Gambar apa pun yang bersifat seksual atau menyinggung.
+    <ul class="number-list1">
+        <li>TitipGroup tidak memungut biaya pendaftaran apa pun kepada Pengguna.</li>
+        <li> Anda setuju untuk memberikan informasi yang benar, akurat dan lengkap pada akun Anda, termasuk untuk setiap saat menjaga akun Anda dan memastikan rincian pembayaran Anda selalu terbaru dan terkini. Anda bertanggung jawab penuh atas setiap ketidaksesuaian atau kesalahan pernyataan identitas atau informasi yang Anda berikan pada akun Anda. Anda selanjutnya memahami dan menyetujui bahwa kami dapat meminta informasi tambahan, verifikasi, dan persyaratan lain atas penggunaan Anda atas Platform secara berkelanjutan.</li>
+        <li>Kami dapat, atas kebijakan kami sendiri dan tanpa pemberitahuan:</li>
+    </ul>
+    <ul class="number-list">
+        <li>Menyaring terlebih dahulu, menghapus atau mengubah setiap daftar terkait Konten, Barang dan/atau Jasa;</li>
+        <li>Menutup, menghapus atau menangguhkaAnda di Platform;</li>
+        <li>Melarang Pengguna manapun untuk menggunakan fitur, perangkat dan/atau jasa spesifik yang tersedia di Platform;</li>
+        <li>Mengakhiri akses Anda dan/atau memblokir akses Anda di masa mendatang ke Platform; dan/atau</li>
+        <li>Mengambil setiap dan semua tindakan yang diperlukan,</li>
+    </ul>
+    Terhadap kegagalan untuk mematuhi atau terhadap tindakan yang melanggar Ketentuan Penggunaan ini, dan/atau hukum yang berlaku, termasuk jika transaksi yang melibatkan Anda adalah atau diduga curang atau menyesatkan, atau jika Anda tidak memiliki izin dan/atau persetujuan yang diperlukan untuk menjual Barang dan/atau memberikan Jasa yang Anda tawarkan di Platform. <br><br>
+    <ul class="number-list1">
+        <li>Anda setuju untuk tidak menggunakan, atau mencoba menggunakan Platform untuk tujuan apa pun yang tidak sah atau dilarang oleh Ketentuan Penggunaan ini atau setiap peraturan perundang-undangan yang berlaku, termasuk namun tidak terbatas pada:</li>
+    </ul>
+    <ul class="number-list">
+        <li>Membuat dan/atau menggunakan perangkat keras, perangkat lunak, fitur, dan/atau perangkat lain apa pun untuk tujuan memanipulasi sistem Platform atau membuat salinan Platform atau bagian dari Platform, termasuk manipulasi atas (i) Konten, (ii) kegiatan perambahan (crawling/scraping); (iii) kegiatan otomasi dalam transaksi, jual beli, promosi, dan yang lainnya; (v) penambahan produk ke katalog; dan/atau (v) aktivitas lain yang secara wajar dapat dianggap sebagai tindakan manipulatif terhadap sistem Platform;</li>
+        <li>Menyalahgunakan atau mengganggu pengoperasian Platform atau server atau jaringan yang terhubung ke Platform, termasuk memasang, mengirimkan, mentransmisikan, mengunggah, atau menyediakan materi apa pun yang berisi virus perangkat lunak, worms, atau kode, dokumen, atau program komputer lainnya yang dirancang untuk mengganggu, menghancurkan atau membatasi fungsionalitas perangkat lunak atau perangkat keras komputer atau peralatan telekomunikasi;</li>
+        <li>Mengumpulkan atau 1. menyimpan data pribadi tentang Pengguna Platform lainnya sehubungan dengan perilaku dan aktivitas terlarang yang ditetapkan dalam Ketentuan Penggunaan ini;</li>
+        <li>Menyamar sebagai orang atau entitas apa pun, secara tidak benar menyatakan atau memberikan pernyataan salah tentang afiliasi Anda dengan seseorang atau entitas;</li>
+        <li>Menghapus hak cipta, merek dagang, atau pemberitahuan kepemilikan hak intelektual lainnya dari Platform; dan</li>
+        <li>Mendapatkan akses tidak sah ke bagian atau fitur apa pun dari Platform, termasuk mengambil tindakan apa pun yang berdampak negatif atau menyebabkan ketidaknyamanan bagi Pengguna lain.</li>
+    </ul>
+    <ul class="number-list1">
+        <li>Kami berwenang untuk membuat perubahan terhadap dan/atau menghapus setiap peringkat dan/atau ulasan yang dibuat oleh Pembeli untuk toko online Penjual di Platform, jika peringkat dan/atau ulasan tersebut tidak sesuai dengan Ketentuan Penggunaan ini, termasuk yang mengandung:</li>
+    </ul>
+    <ul class="number-list">
+        <li>Setiap bahasa yang tidak pantas atau menyinggung. Bahasa yang tidak pantas atau menyinggung termasuk, namun tidak terbatas pada, segala sesuatu yang bermuatan seksual, kasar, memfitnah, vulgar, cabul, tidak senonoh, dan penuh kebencian atau yang berisi materi yang bersifat rasial, etnis, atau tidak pantas dalam bentuk apa pun;</li>
+        <li>Setiap gambar, video atau konten lainnya yang dengan cara apa pun menunjukkan rasisme, diskriminasi, merendahkan, pelecehan, vulgar, ancaman atau sikap lain yang bertentangan dengan nilai sosial, norma dan peraturan perundang-undangan yang berlaku serta kebijakan yang ditetapkan oleh TitipGroup;</li>
+        <li>Konten yang melecehkan atau secara pribadi menyerang orang lain, termasuk namun tidak terbatas pada tindakan yang melanggar hukum, berbahaya, mengancam, kasar, melecehkan, memfitnah, vulgar, cabul, tidak senonoh, penuh kebencian dan secara rasial, etnis atau tindakan yang tidak menyenangkan tidak diizinkan, atau tindakan lain apa pun yang berpotensi menyebabkan konflik terhadap individu, kelompok, atau lembaga yang berpotensi menimbulkan persaingan tidak sehat; dan/atau</li>
+        <li>Gambar apa pun yang bersifat seksual atau menyinggung.</li>
+    </ul>
     </p>
 </div>
 @endsection
