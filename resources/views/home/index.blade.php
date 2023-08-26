@@ -43,7 +43,7 @@
             <img src="{{ asset('/img/beranda-4.png') }}" width="700px" lenght="500px" style="margin-top: 50px; margin-left: -50px"/>
             <div class="kolom-4">
                 <h2 style="font-weight:700; font-size: 36px">Promo Cashback 30%</h2>
-                <p style="margin-bottom: 50px; margin-top: 24px">Khusus pengguna baru tersedia promo <span style="font-weight: 700;">cashback</span> besar-besaran.</p>
+                <p style="margin-bottom: 50px; margin-top: 24px">Khusus pengguna baru tersedia promo <span style="font-weight: 700;">cashback</span> <br> besar-besaran.</p>
             </div>
         </div>
     </section>

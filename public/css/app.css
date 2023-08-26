@@ -224,6 +224,7 @@ nav{
 .container-faq {
     display: inline-flex;
     flex-direction: column;
+    justify-content: center;
     align-items: flex-start;
     gap: 50px;
 }
@@ -277,6 +278,58 @@ nav{
 
 .container-policy {
     width: 80%;
+}
+
+/* contact us */
+.container-contact {
+    margin-top: 50px;
+}
+
+.custom-select select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+    background: var(--grey-gray, #F0F4FD);
+    font-size: 16px;
+}
+
+.custom-select:after {
+    content: "\f078";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    position: absolute;
+    top: 68%;
+    right: 285px;
+    transform: translateY(-50%);
+    color: #98A2B3;
+}
+.btn-kirim {
+    background-color: #068113;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 10px 20px;
+    float: right;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 50px;
+}
+
+.form-control {
+    background-color: var(--grey-gray, #F0F4FD);
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    float: left;
+}
+.input-error {
+    border-color: red;
+    background-color: #ffdbd9;
 }
 
 /*layanan*/
