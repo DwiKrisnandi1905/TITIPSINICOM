@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" />
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap">
-    <link href="{{ asset('/css/app.css') }}" rel="stylesheet" />
+    <link href="{{ asset('/css/app.css') }}" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="icon" href="{{ asset('/img/logo1.png') }}" type="image/png">
     <title>@yield('title', 'Titipsini')</title>
@@ -71,7 +71,7 @@
                 </div>
                 <div class="col-md">
                     <ul class="list-unstyled nav-links">
-                        <li><a href="#" style="font-family: Poppins; font-size: 18px; font-style: normal; font-weight: 500; line-height: normal; color: #fff">Produk</a></li>
+                        <li><p style="font-family: Poppins; font-size: 18px; font-style: normal; font-weight: 500; line-height: normal; color: #fff">Produk</p></li>
                         <li><a href="{{ route('home.syaratketentuan') }}">Syarat & Ketentuan</a></li>
                         <li><a href="/privacypolicy">Kebijakan Privasi</a></li>
                         <li><a href="/faq">FAQ</a></li>
@@ -79,7 +79,7 @@
                 </div>
                 <div class="col-md">
                     <ul class="list-unstyled nav-links">
-                        <li><a href="#" style="font-family: Poppins; font-size: 18px; font-style: normal; font-weight: 500; line-height: normal; color: #fff;">Perusahaan</a></li>
+                        <li><p style="font-family: Poppins; font-size: 18px; font-style: normal; font-weight: 500; line-height: normal; color: #fff;">Perusahaan</p></li>
                         <li><a href="/about">Tentang Kami</a></li>
                         <li><a href="/contact">Kontak Kami</a></li>
                     </ul>
@@ -108,7 +108,7 @@
                 </div>
                 <div class="col-md text-md-center">
                     <a href="#">
-                        <img src="{{ asset('/img/getplay.png') }}" alt="Google Play"  style="margin-bottom: 20px; margin-left: -70px">
+                        <img src="{{ asset('/img/getplay.png') }}" alt="Google Play"  style="margin-bottom: 20px; margin-left: -70px;">
                     </a>
                     <a href="#">
                         <img src="{{ asset('/img/getapps.png') }}" alt="Apple App" style="margin-left: -70px">

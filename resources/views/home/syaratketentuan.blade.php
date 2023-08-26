@@ -4,25 +4,25 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <div class="container-syarat">
     <h1>
-    Syarat dan Ketentuan
+        Syarat dan Ketentuan
     </h1>
     <p>
-    Terima kasih telah mengunakan Titipsini. <br><br>
+        Terima kasih telah mengunakan Titipsini. <br><br>
 
-    Pada seluruh ketentuan penggunaan ini (“Ketentuan Penggunaan”) kami menggunakan istilah-istilah tertentu dalam huruf kapital, yang didefinisikan di bawah ini. <br><br>
+        Pada seluruh ketentuan penggunaan ini (“Ketentuan Penggunaan”) kami menggunakan istilah-istilah tertentu dalam huruf kapital, yang didefinisikan di bawah ini. <br><br>
 
-    Ketentuan Penggunaan ini berlaku untuk semua pengguna dan pengunjung Platform (“Pengguna” atau “Anda”). <br><br>
+        Ketentuan Penggunaan ini berlaku untuk semua pengguna dan pengunjung Platform (“Pengguna” atau “Anda”). <br><br>
 
-    Ketentuan Penggunaan ini termasuk dan harus dibaca bersama dengan Kebijakan Privasi kami. Kebijakan Privasi kami memberi tahu Anda tentang bagaimana kami menjaga data pribadi Anda ketika Anda menggunakan Platform dan memberi tahu Anda tentang hak privasi Anda dan bagaimana hukum melindungi Anda. <br><br>
+        Ketentuan Penggunaan ini termasuk dan harus dibaca bersama dengan Kebijakan Privasi kami. Kebijakan Privasi kami memberi tahu Anda tentang bagaimana kami menjaga data pribadi Anda ketika Anda menggunakan Platform dan memberi tahu Anda tentang hak privasi Anda dan bagaimana hukum melindungi Anda. <br><br>
 
-    Ketentuan Penggunaan ini dapat diubah, dimodifikasi, ditambah atau diamendemen dari waktu ke waktu berdasarkan kebijakan kami sendiri, dan tanpa pemberitahuan sebelumnya kepada Anda. Anda setuju dan menerima tanggung jawab Anda untuk memeriksa Ketentuan Penggunaan ini secara berkala. <br><br>
+        Ketentuan Penggunaan ini dapat diubah, dimodifikasi, ditambah atau diamendemen dari waktu ke waktu berdasarkan kebijakan kami sendiri, dan tanpa pemberitahuan sebelumnya kepada Anda. Anda setuju dan menerima tanggung jawab Anda untuk memeriksa Ketentuan Penggunaan ini secara berkala. <br><br>
 
-    Perubahan, amandemen, penambahan, atau modifikasi terakhir dari Ketentuan Penggunaan ini dibuat pada tanggal yang dirujuk pada informasi “terakhir diperbarui pada tanggal” di atas. <br><br>
+        Perubahan, amandemen, penambahan, atau modifikasi terakhir dari Ketentuan Penggunaan ini dibuat pada tanggal yang dirujuk pada informasi “terakhir diperbarui pada tanggal” di atas. <br><br>
 
-    Definisi <br><br>
+        Definisi <br><br>
 
-    Kecuali sejauh yang secara tegas ditentukan lain, dalam Ketenttuan Penggunaan ini <br>
-    Konten” berarti semua teks, foto, gambar, ilustrasi, grafik, rekaman suara, video, klip audio-video, dan konten lainnya yang Anda unggah, pasang di atau melalui Platform menggunakan perangkat yang kami sediakan untuk Anda. <br>
+        Kecuali sejauh yang secara tegas ditentukan lain, dalam Ketenttuan Penggunaan ini <br>
+        Konten” berarti semua teks, foto, gambar, ilustrasi, grafik, rekaman suara, video, klip audio-video, dan konten lainnya yang Anda unggah, pasang di atau melalui Platform menggunakan perangkat yang kami sediakan untuk Anda. <br>
     <ul class="number-list">
         <li>“Pembeli” berarti semua pihak yang menerima konten dari Penjual untuk tujuan apapun tetapi tidak terbatas dalam (1) melakukan pembelian barang dan/atau jasa yang diberikan oleh Penjual. (2) melakukan pembayaran melalui fitur pembayaran aplikasi Tutupsini.</li>
         <li>“Barang” berarti semua barang (termasuk setiap bagiannya) yang tersedia untuk dijual oleh Penjual.</li>

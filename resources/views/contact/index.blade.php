@@ -30,7 +30,7 @@
                                 <div class="form-group mb-4">
                                     <div class="custom-select">
                                         <select class="form-control" id="dropdown">
-                                            <option value="" disabled selected></option>
+                                            <option value="" disabled selected>Pertanyaan Seputar</option>
                                             <option value="opsi1">Menggunakan Aplikasi</option>
                                             <option value="opsi2">Penyelesaian Masalah</option>
                                             <option value="opsi3">Pencadangan Data</option>
@@ -65,10 +65,10 @@
         emailInput.addEventListener('input', function () {
             if (!isValidEmail(emailInput.value)) {
                 emailError.textContent = 'Gunakan alamat email yang benar.';
-                emailInput.classList.add('input-error'); // Tambahkan kelas input-error
+                emailInput.classList.add('input-error'); 
             } else {
                 emailError.textContent = '';
-                emailInput.classList.remove('input-error'); // Hapus kelas input-error jika valid
+                emailInput.classList.remove('input-error'); 
             }
         });
 

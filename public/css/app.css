@@ -168,19 +168,19 @@ nav{
 /*tentang*/
 .container-tentang {
     display: flex;
-    flex-direction: row; 
+    justify-content: center;
     align-items: center;
     padding: 60px;
 }
 
 .image {
     flex: 1; 
-    padding-right: 20px;
+    padding-right: 30px;
 }
 
 .image img {
     height: auto;
-    width: 400px; 
+    width: 500px; 
     margin-top: -30px;
 }
 
@@ -195,7 +195,7 @@ nav{
     font-weight: 700;
     line-height: normal;
     margin-bottom: 30px;
-    margin-top: 10px;
+    margin-top: 100px;
     margin-left: 10px;  
 }
 
@@ -493,6 +493,8 @@ a, a:hover {
 }
 
 .footer-48201 .nav-links li a:hover {
-    color: #fff500;
-    font-weight: 700; 
+    background-color: #05450c;
+    color: #98A2B3;
+    padding: 8px 6px 8px 6px;
+    border-radius: 4px;
 }
