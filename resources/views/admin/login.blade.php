@@ -55,6 +55,49 @@
     background-image: url('/img/open.png');
     background-position: 0 0;
 }
+<<<<<<< Updated upstream
+=======
+
+    .card-header h1 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 50px;
+      margin-left: -40px;
+      margin-top: -50px;
+    }
+
+    .form-group {
+      margin-bottom: 30px;
+      margin-left: -40px;
+      margin-right: -30px;
+    }
+
+    .form-label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .form-label img {
+      position: relative;
+    }
+
+    #password-toggle {
+      position: absolute;
+      top: 335px;
+      right: 235px;
+      transform: translateY(-50%);
+      cursor: pointer;
+      width: 20px;
+      /* Sesuaikan ukuran gambar */
+      height: 20px;
+      /* Sesuaikan ukuran gambar */
+      background-image: url('/img/open.png');
+      /* Menggunakan sprite sebagai gambar latar belakang */
+      background-position: 0 0;
+      /* Mengatur posisi sprite (mata terbuka) */
+    }
+>>>>>>> Stashed changes
 
     #password-toggle.cross {
         background-position: -20px 0; /* Mengatur posisi sprite (silang) */
