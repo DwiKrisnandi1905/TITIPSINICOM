@@ -23,7 +23,6 @@ return new class extends Migration
             $table->text('address');
             $table->enum('gender', ['male', 'female']);
             $table->foreignUuid('zip_code_id')->constrained()->cascadeOnDelete();
-            $table->enum('role', ['admin', 'finance']);
             $table->string('phone_number', 15);
             $table->timestamps();
         });

@@ -14,9 +14,9 @@ class ZipCode extends Model
 
     protected $guarded = ['id'];
 
-    public function users(): HasMany
+    public function admins(): HasMany
     {
-        return $this->hasMany(User::class);
+        return $this->hasMany(Admin::class);
     }
 
     public function district(): BelongsTo
