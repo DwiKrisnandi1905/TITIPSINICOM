@@ -88,6 +88,7 @@
       height: 20px;
       background-image: url('/img/open.png');
       background-position: 0 0;
+      color: #98A2B3;
     }
 
     #password-toggle.cross {
@@ -149,7 +150,7 @@
         <div class="form-group">
           <label for="password" class="form-label">
             Kata Sandi:
-            <img src="{{ asset('/img/open.png') }}" alt="Tampilkan/Sembunyikan Sandi" id="password-toggle">
+            <i id="password-toggle" class="bi bi-eye"></i>
           </label>
           <input type="password" id="password" class="form-control" placeholder="Masukkan Kata Sandi" required>
         </div>
@@ -167,13 +168,8 @@
     passwordToggle.addEventListener('click', function() {
       passwordVisible = !passwordVisible;
       passwordInput.type = passwordVisible ? 'text' : 'password';
-      passwordToggle.classList.toggle('cross', passwordVisible);
-
-      if (passwordVisible) {
-        passwordToggle.style.backgroundImage = "url('/img/close.png')";
-      } else {
-        passwordToggle.style.backgroundImage = "url('/img/open.png')";
-      }
+      passwordToggle.classList.toggle('bi-eye', passwordVisible);
+      passwordToggle.classList.toggle('bi-eye-slash', !passwordVisible);
     });
   </script>
 </body>
