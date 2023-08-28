@@ -67,7 +67,7 @@
             <div class="row">
                 <div class="col-md-4 pr-md-5">
                     <div class="titles" style="gap: 2px; margin-left: 100px">
-                        <img src="{{ asset('/img/logo1.png') }}" class="img-titles">
+                        <img src="{{ asset('/img/logo2.png') }}" class="img-titles">
                         <p
                             style="font-family: Poppins; font-size: 24px; font-style: normal; font-weight: 700; line-height: normal; color: #fff">
                             Titipsini</p>
