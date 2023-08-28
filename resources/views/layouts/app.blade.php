@@ -46,8 +46,8 @@
                     <li class="nav-item {{ Request::is('faq') ? 'active-page' : '' }}">
                         <a class="navigasi" href="/faq">FAQ</a>
                     </li>
-                    <li class="nav-item {{ Request::is('#') ? 'active-page' : '' }}">
-                        <a class="navigasi" href="#"><i class="bi bi-person-fill"></i></a>
+                    <li class="nav-item {{ Request::is('/admin/login') ? 'active-page' : '' }}">
+                        <a class="navigasi" href="/admin/login"><i class="bi bi-person-fill"></i></a>
                     </li>
                 </div>
             </div>
