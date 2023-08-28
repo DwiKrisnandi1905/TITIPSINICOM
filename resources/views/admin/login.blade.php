@@ -20,6 +20,13 @@
       background-color: #fff;
       font-family: 'Raleway', sans-serif;
     }
+    .container-login img{
+    width: 500px;
+    height: 430px;
+    position: relative;
+    top: 20px; 
+    left: 50px;
+    }
 
     .card {
       width: 350px;
@@ -138,6 +145,7 @@
   <!-- header -->
 
   <div class="container-login">
+    <img src="{{ asset('img/loginimage.png') }}" alt="Gambarimage">
     <div class="card">
       <div class="card-headerr">
         <h1>Login Admin</h1>
