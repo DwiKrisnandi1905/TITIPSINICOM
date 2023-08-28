@@ -24,7 +24,7 @@
     width: 500px;
     height: 430px;
     position: relative;
-    top: 20px; 
+    top: 45px; 
     left: 50px;
     }
 
