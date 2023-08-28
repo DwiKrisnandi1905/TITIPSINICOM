@@ -40,22 +40,21 @@
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
+    position: relative;
   }
-  .form-label img {
-        position: relative;
-    }
+  
 
     #password-toggle {
-        position: absolute;
-        top: 335px;
-        right: 235px;
-        transform: translateY(-50%);
-        cursor: pointer;
-        width: 20px; /* Sesuaikan ukuran gambar */
-        height: 20px; /* Sesuaikan ukuran gambar */
-        background-image: url('/img/open.png'); /* Menggunakan sprite sebagai gambar latar belakang */
-        background-position: 0 0; /* Mengatur posisi sprite (mata terbuka) */
-    }
+    position: absolute;
+    top: 220%;
+    right: 0px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background-image: url('/img/open.png');
+    background-position: 0 0;
+}
 
     #password-toggle.cross {
         background-position: -20px 0; /* Mengatur posisi sprite (silang) */
