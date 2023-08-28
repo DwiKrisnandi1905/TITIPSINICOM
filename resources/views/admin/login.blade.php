@@ -15,23 +15,25 @@
   }
 
   .card {
-    width: 300px;
-    padding: 20px;
+    width: 195px;
+    padding: 100px;
     background-color: white;
     border: 1px solid black;
     border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
     margin-left: 500px;
   }
-
-  .card-header {
+  .card-header h1 {
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    margin-left: -40px;
+    margin-top: -50px;
   }
-
   .form-group {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
+    margin-left: -40px;
+    margin-right: -30px;
   }
 
   .form-label {
@@ -39,6 +41,25 @@
     margin-bottom: 5px;
     font-weight: bold;
   }
+  .form-label img {
+        position: relative;
+    }
+
+    #password-toggle {
+        position: absolute;
+        top: 335px;
+        right: 235px;
+        transform: translateY(-50%);
+        cursor: pointer;
+        width: 20px; /* Sesuaikan ukuran gambar */
+        height: 20px; /* Sesuaikan ukuran gambar */
+        background-image: url('/img/open.png'); /* Menggunakan sprite sebagai gambar latar belakang */
+        background-position: 0 0; /* Mengatur posisi sprite (mata terbuka) */
+    }
+
+    #password-toggle.cross {
+        background-position: -20px 0; /* Mengatur posisi sprite (silang) */
+    }
 
   .form-input {
     width: 100%;
@@ -47,14 +68,17 @@
     border-radius: 5px;
   }
 
+
   .form-button {
-    width: 100%;
+    width: 282px;
     padding: 10px;
-    background-color: #007bff;
+    background-color: #068113;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-left: -40px;
+
   }
 
   .form-button:hover {
@@ -64,18 +88,38 @@
 </head>
 <body>
   <div class="card">
-    <div class="card-header">Login Admin</div>
+    <div class="card-header">
+        <h1>Login Admin</h1>
+        </div>
     <form>
       <div class="form-group">
         <label for="email" class="form-label">Email:</label>
         <input type="email" id="email" class="form-input" required>
       </div>
       <div class="form-group">
-        <label for="password" class="form-label">Password:</label>
-        <input type="password" id="password" class="form-input" required>
-      </div>
+    <label for="password" class="form-label">
+        Kata Sandi:
+        <img src="{{ asset('/img/open.png') }}" alt="Tampilkan/Sembunyikan Sandi" id="password-toggle">
+    </label>
+    <input type="password" id="password" class="form-input" required>
+</div>
+
       <button type="submit" class="form-button">Login</button>
     </form>
   </div>
+  <script>
+    const passwordInput = document.getElementById('password');
+    const passwordToggle = document.getElementById('password-toggle');
+
+    let passwordVisible = false;
+
+    passwordToggle.addEventListener('click', function() {
+        passwordVisible = !passwordVisible;
+        passwordInput.type = passwordVisible ? 'text' : 'password';
+        passwordToggle.classList.toggle('cross', passwordVisible);
+    });
+</script>
+
+
 </body>
 </html>
