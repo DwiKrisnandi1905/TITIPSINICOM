@@ -8,9 +8,11 @@ use Illuminate\Support\Facades\Auth;
 
 class LoginController extends Controller
 {
-    public function index()
+    public function login()
     {
-        return "Ganti ke view login";
+        $viewData = [];
+        $viewData["title"] = "Login";
+        return view('admin.login')->with("viewData", $viewData);
     }
 
     public function authenticate(LoginRequest $request)

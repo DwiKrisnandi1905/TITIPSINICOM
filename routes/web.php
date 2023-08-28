@@ -27,7 +27,7 @@ Route::get('/privacy-policy', [HomeController::class, 'privacyPolicy'])->name("h
 Route::get('/contact', [ContactController::class, 'index'])->name("contact.index");
 
 Route::prefix('admin')->group(function () {
-    Route::get('/login', [LoginController::class, 'index'])->name('admin.login.index');
+    Route::get('/login', [LoginController::class, 'login'])->name('admin.login');
     Route::post('/login', [LoginController::class, 'authenticate'])->name('admin.login.authenticate');
 
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('admin.dashboard');
