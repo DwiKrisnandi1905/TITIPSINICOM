@@ -2,8 +2,7 @@
 
 use App\Http\Controllers\Admin\Auth\LoginController;
 use App\Http\Controllers\Admin\DashboardController;
-use App\Http\Controllers\ContactController;
-use App\Http\Controllers\HomeController;
+use App\Http\Controllers\GuestController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,14 +16,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [HomeController::class, 'index'])->name("home.index");
-Route::get('/about', [HomeController::class, 'about'])->name("home.about");
-Route::get('/service', [HomeController::class, 'service'])->name("home.service");
-Route::get('/faq', [HomeController::class, 'faq'])->name("home.faq");
-Route::get('/syarat-ketentuan', [HomeController::class, 'syaratKetentuan'])->name("home.syarat-ketentuan");
-Route::get('/privacy-policy', [HomeController::class, 'privacyPolicy'])->name("home.privacy-policy");
-
-Route::get('/contact', [ContactController::class, 'index'])->name("contact.index");
+Route::get('/', [GuestController::class, 'home'])->name("guest.home");
+Route::get('/about', [GuestController::class, 'about'])->name("guest.about");
+Route::get('/service', [GuestController::class, 'service'])->name("guest.service");
+Route::get('/faq', [GuestController::class, 'faq'])->name("guest.faq");
+Route::get('/syarat-ketentuan', [GuestController::class, 'syaratKetentuan'])->name("guest.syarat-ketentuan");
+Route::get('/privacy-policy', [GuestController::class, 'privacyPolicy'])->name("guest.privacy-policy");
+Route::get('/contact', [GuestController::class, 'contact'])->name("guest.contact");
 
 Route::prefix('admin')->group(function () {
     Route::get('/login', [LoginController::class, 'login'])->name('admin.login');

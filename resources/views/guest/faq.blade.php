@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', $viewData['title'])
+@section('title', $title)
 @section('content')
     <div class="container-faq">
         <h1 style="font-size: 64px; font-style: normal; font-weight: 800; padding-top: 40px">Frequently Asked Questions</h1>

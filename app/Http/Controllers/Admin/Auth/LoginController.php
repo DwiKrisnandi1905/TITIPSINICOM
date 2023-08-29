@@ -10,9 +10,9 @@ class LoginController extends Controller
 {
     public function login()
     {
-        $viewData = [];
-        $viewData["title"] = "Login";
-        return view('admin.login')->with("viewData", $viewData);
+        return view('admin.auth.login', [
+            'title' => 'Login'
+        ]);
     }
 
     public function authenticate(LoginRequest $request)
