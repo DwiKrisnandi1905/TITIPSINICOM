@@ -51,7 +51,7 @@ body {
     height: 4px;
     background-color: #fff500;
     border-radius: 50%; 
-    margin-top: 6px;
+    margin-top: 10px;
 }
 
 .subtitle {
@@ -253,6 +253,18 @@ nav{
 
     .text p {
         font-size: 16px; /* Ubah ukuran font sesuai keinginan Anda */
+    }
+
+    .subtitles{
+        margin-right: 100px;
+    }
+
+    .footer-title {
+        margin-left: 110px;
+    }
+
+    .footer-app {
+        margin-left: 70px;
     }
 }
 
@@ -543,3 +555,4 @@ a, a:hover {
     padding: 8px 6px 8px 6px;
     border-radius: 4px;
 }
+
