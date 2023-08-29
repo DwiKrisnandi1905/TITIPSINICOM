@@ -63,7 +63,13 @@
             margin-bottom: 5px;
             text-align: start;
             font-size: 14px;
+            position: relative;
         }
+        .form-label i {
+    margin-right: -45px; /* Add spacing between label text and icon */
+    margin-top: 33px;
+    cursor: pointer;
+}
 
         .form-control {
             width: 100%;
@@ -104,6 +110,35 @@
             background-position: -20px 0;
             /* Mengatur posisi sprite (silang) */
         }
+        /* Aturan CSS untuk layar dengan lebar kurang dari 768px */
+@media (max-width: 768px) {
+    .container-login {
+        justify-content: center; /* Pusatkan vertikal */
+        align-items: center; /* Pusatkan horizontal */
+        flex-direction: column; /* Tata letak menjadi vertikal */
+        margin-top: 30px;
+        padding-bottom: 60px;
+        padding-top: 100px;
+
+    }
+    .container-login img {
+        width: 80%; /* Sesuaikan ukuran gambar */
+        height: auto;
+        position: static;
+    }
+
+    .card {
+        width: 60%; /* Lebar kartu penuh pada layar kecil */
+        margin: 0;
+        padding: 30px; /* Kurangi padding agar lebih lega pada layar kecil */
+        margin-top: 20px; /* Atur margin atas sesuai keinginan Anda */
+        position: static;
+        height: auto;
+    }
+
+    /* Alatkan gaya yang sesuai untuk komponen Anda pada layar kecil */
+}
+
     </style>
 </head>
 
