@@ -185,6 +185,7 @@ nav{
     height: auto;
     margin-top: -80px;
     transition: transform 0.3s; /* Add a transition for smoother resizing */
+    position: relative;
 }
 
 .text {
@@ -232,7 +233,7 @@ nav{
 
     .image img {
         margin-top: 0;
-        max-width: 100%; /* Adjust max-width for responsiveness */
+        max-width: 80%; /* Adjust max-width for responsiveness */
         transform: scale(1.2); /* Enlarge the image by 20% */
     }
 
@@ -242,7 +243,6 @@ nav{
         text-align: center; /* Center text on smaller screens */
         margin-left: 30px;
     }
-
     .text h2,
     .text p {
         margin-top: 15px; /* Add some space between text and image */
@@ -252,7 +252,7 @@ nav{
     }
 
     .text p {
-        font-size: 16px; /* Ubah ukuran font sesuai keinginan Anda */
+        font-size: 12px; /* Ubah ukuran font sesuai keinginan Anda */
     }
 
     .subtitles{
