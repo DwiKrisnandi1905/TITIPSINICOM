@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Admin\Auth;
 
 use App\Http\Controllers\Controller;
-use App\Http\Requests\Auth\LoginRequest;
+use App\Http\Requests\Admin\Auth\LoginRequest;
 use Illuminate\Support\Facades\Auth;
 
 class LoginController extends Controller
@@ -17,10 +17,10 @@ class LoginController extends Controller
 
     public function authenticate(LoginRequest $request)
     {
-        if (Auth::attempt($request->only('email', 'password'))) {
+        if (Auth::guard('admin')->attempt($request->only('email', 'password'))) {
             return redirect()->route('admin.dashboard');
         }
 
-        return back();
+        return back()->withInput()->with('login-failed', 'Email atau password salah');
     }
 }

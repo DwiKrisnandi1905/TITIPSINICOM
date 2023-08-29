@@ -115,6 +115,9 @@
     <div class="container-login">
         <img src="{{ asset('img/loginimage.png') }}" alt="Gambarimage">
         <div class="card">
+            @if (session()->has('login-failed'))
+                <div class="alert alert-danger">{{ session()->get('login-failed') }}</div>
+            @endif
             <div class="card-headerr">
                 <h1>Login Admin</h1>
             </div>
@@ -122,16 +125,28 @@
                 @csrf
                 <div class="form-group">
                     <label for="email" class="form-label">Email:</label>
-                    <input type="email" id="email" name="email" class="form-control"
+                    <input type="email" id="email" name="email"
+                        class="form-control @error('email') is-invalid @enderror" value="{{ old('email') }}"
                         placeholder="Masukkan Email" required>
+                    @error('email')
+                        <div class="invalid-feedback">
+                            {{ $message }}
+                        </div>
+                    @enderror
                 </div>
                 <div class="form-group">
                     <label for="password" class="form-label">
                         Kata Sandi:
                         <i id="password-toggle" class="bi bi-eye"></i>
                     </label>
-                    <input type="password" id="password" name="password" class="form-control"
-                        placeholder="Masukkan Kata Sandi" required>
+                    <input type="password" id="password" name="password"
+                        class="form-control @error('password') is-invalid @enderror" placeholder="Masukkan Kata Sandi"
+                        required>
+                    @error('password')
+                        <div class="invalid-feedback">
+                            {{ $message }}
+                        </div>
+                    @enderror
                 </div>
                 <button type="submit" class="form-button">Masuk</button>
             </form>
