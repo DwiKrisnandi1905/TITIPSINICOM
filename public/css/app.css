@@ -233,7 +233,7 @@ nav{
 
     .image img {
         margin-top: 0;
-        max-width: 100%; /* Adjust max-width for responsiveness */
+        max-width: 80%; /* Adjust max-width for responsiveness */
         transform: scale(1.2); /* Enlarge the image by 20% */
     }
 
