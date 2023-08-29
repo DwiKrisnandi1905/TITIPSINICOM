@@ -66,11 +66,18 @@
         }
 
         .form-label i {
+<<<<<<< HEAD
             margin-right: -45px;
             margin-top: 33px;
             cursor: pointer;
         }
 
+=======
+        margin-right: -45px; 
+        margin-top: 33px;
+        cursor: pointer;
+}
+>>>>>>> 2207e458a8d18d114841e3e07f72f64b1ad60485
         .form-control {
             width: 100%;
             padding: 8px;
@@ -109,6 +116,7 @@
         #password-toggle.cross {
             background-position: -20px 0;
         }
+<<<<<<< HEAD
 
         @media (max-width: 768px) {
             .container-login {
@@ -126,6 +134,34 @@
                 height: auto;
                 position: static;
             }
+=======
+
+@media (max-width: 768px) {
+    .container-login {
+        justify-content: center; 
+        align-items: center;
+        flex-direction: column; 
+        margin-top: 30px;
+        padding-bottom: 60px;
+        padding-top: 100px;
+
+    }
+    .container-login img {
+        width: 80%; 
+        height: auto;
+        position: static;
+    }
+
+    .card {
+        width: 60%; 
+        margin: 0;
+        padding: 30px; 
+        margin-top: 20px; 
+        position: static;
+        height: auto;
+    }
+}
+>>>>>>> 2207e458a8d18d114841e3e07f72f64b1ad60485
 
             .card {
                 width: 60%;
