@@ -256,7 +256,6 @@ nav{
     }
 }
 
-
 /* faq */
 .container-faq {
     display: inline-flex;
@@ -381,7 +380,7 @@ nav{
 
 /*layanan*/
 .container-layanan {
-    padding-top: 40px;
+    padding-top: 40px; 
 }
 .container-layanan h1 {
     color: #000;
@@ -459,7 +458,19 @@ nav{
     line-height: normal;
     margin-top: 5px;
 }
-
+@media (max-width: 768px) {
+    .container-layanan {
+        padding-top: 20px;
+    }
+    .card {
+        width: 60%;
+        height: 30px auto;
+        position: relative;
+        margin: 30px -20px;
+        text-align: center;
+        flex-direction: column;
+    }
+}
 /*syarat&ketentuan*/
 .container-syarat h1 {
     color: #000;
