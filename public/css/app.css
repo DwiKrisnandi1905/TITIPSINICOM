@@ -473,6 +473,10 @@ nav{
 @media (max-width: 768px) {
     .container-layanan {
         padding-top: 20px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column; /* Mengubah tata letak ke vertikal */
+        align-items: center; /* Pusatkan horizontal */
     }
     .card {
         width: 60%;
@@ -480,7 +484,6 @@ nav{
         position: relative;
         margin: 30px -20px;
         text-align: center;
-        flex-direction: column;
     }
 }
 /*syarat&ketentuan*/
