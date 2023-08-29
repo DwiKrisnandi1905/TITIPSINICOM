@@ -25,8 +25,12 @@ Route::get('/privacy-policy', [GuestController::class, 'privacyPolicy'])->name("
 Route::get('/contact', [GuestController::class, 'contact'])->name("guest.contact");
 
 Route::prefix('admin')->group(function () {
-    Route::get('/login', [LoginController::class, 'login'])->name('admin.login');
-    Route::post('/login', [LoginController::class, 'authenticate'])->name('admin.login.authenticate');
+    Route::middleware("guest")->group(function () {
+        Route::get('/login', [LoginController::class, 'login'])->name('admin.login');
+        Route::post('/login', [LoginController::class, 'authenticate'])->name('admin.login.authenticate');
+    });
 
-    Route::get('/dashboard', [DashboardController::class, 'index'])->name('admin.dashboard');
+    Route::middleware("role:admin")->group(function () {
+        Route::get('/dashboard', [DashboardController::class, 'index'])->name('admin.dashboard');
+    });
 });
