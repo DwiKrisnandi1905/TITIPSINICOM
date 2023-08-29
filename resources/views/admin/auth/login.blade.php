@@ -66,11 +66,10 @@
             position: relative;
         }
         .form-label i {
-    margin-right: -45px; /* Add spacing between label text and icon */
-    margin-top: 33px;
-    cursor: pointer;
+        margin-right: -45px; /* Add spacing between label text and icon */
+        margin-top: 33px;
+        cursor: pointer;
 }
-
         .form-control {
             width: 100%;
             padding: 8px;
