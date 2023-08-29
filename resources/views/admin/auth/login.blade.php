@@ -108,7 +108,7 @@
         #password-toggle.cross {
             background-position: -20px 0;
         }
-        /
+
 @media (max-width: 768px) {
     .container-login {
         justify-content: center; 
@@ -120,16 +120,16 @@
 
     }
     .container-login img {
-        width: 80%;
+        width: 80%; 
         height: auto;
         position: static;
     }
 
     .card {
-        width: 60%;
+        width: 60%; 
         margin: 0;
-        padding: 30px;
-        margin-top: 20px;
+        padding: 30px; 
+        margin-top: 20px; 
         position: static;
         height: auto;
     }
