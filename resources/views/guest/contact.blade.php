@@ -17,12 +17,12 @@
                         <form id="contact-form">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <div class="form-group">
+                                    <div class="form-group mt-4">
                                         <input type="text" class="form-control" id="nama" placeholder="Nama Anda">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="form-group mb-4">
+                                    <div class="form-group mt-4 mb-4">
                                         <input type="email" class="form-control" id="email"
                                             placeholder="Alamat Email">
                                         <span class="error-message" id="email-error"></span>

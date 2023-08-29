@@ -133,6 +133,21 @@ nav{
     margin-top: 250px;
 }
 
+.kolom-1-h2-1 {
+    font-weight: 700; 
+    font-size: 64px;
+}
+
+.kolom-1-h2-2 {
+    font-weight: 700; 
+    font-size: 56px;
+}
+
+.kolom-1-p {
+    margin-bottom: 50px; 
+    margin-top: 30px;
+}
+
 .btn-beranda-1 {
     background: #068113;
     border-radius: 10px;
@@ -219,6 +234,25 @@ nav{
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
+    /* beranda */
+    .container-beranda-1 {
+        display: flex;
+        flex-direction: column; 
+        margin-top: 50px;
+    }
+
+    .btn-beranda-1 {
+        margin-left: 0px;
+        margin-bottom: 200px;
+    }
+
+    .beranda-img1 {
+        margin: 60px 30px 20px 30px;
+    }
+
+
+
+    /* tentang */
     .container-tentang {
         flex-direction: column;
         padding: 30px;
@@ -255,6 +289,7 @@ nav{
         font-size: 12px; /* Ubah ukuran font sesuai keinginan Anda */
     }
 
+    /* footer */
     .subtitles{
         margin-right: 100px;
     }

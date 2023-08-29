@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link href="{{ asset('/css/app.css') }}" rel="stylesheet" />
     <link rel="icon" href="{{ asset('/img/logo1.png') }}" type="image/png">
@@ -65,11 +64,13 @@
             font-size: 14px;
             position: relative;
         }
+
         .form-label i {
-        margin-right: -45px; /* Add spacing between label text and icon */
-        margin-top: 33px;
-        cursor: pointer;
-}
+            margin-right: -45px;
+            margin-top: 33px;
+            cursor: pointer;
+        }
+
         .form-control {
             width: 100%;
             padding: 8px;
@@ -107,37 +108,34 @@
 
         #password-toggle.cross {
             background-position: -20px 0;
-            /* Mengatur posisi sprite (silang) */
         }
-        /* Aturan CSS untuk layar dengan lebar kurang dari 768px */
-@media (max-width: 768px) {
-    .container-login {
-        justify-content: center; /* Pusatkan vertikal */
-        align-items: center; /* Pusatkan horizontal */
-        flex-direction: column; /* Tata letak menjadi vertikal */
-        margin-top: 30px;
-        padding-bottom: 60px;
-        padding-top: 100px;
 
-    }
-    .container-login img {
-        width: 80%; /* Sesuaikan ukuran gambar */
-        height: auto;
-        position: static;
-    }
+        @media (max-width: 768px) {
+            .container-login {
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                margin-top: 30px;
+                padding-bottom: 60px;
+                padding-top: 100px;
 
-    .card {
-        width: 60%; /* Lebar kartu penuh pada layar kecil */
-        margin: 0;
-        padding: 30px; /* Kurangi padding agar lebih lega pada layar kecil */
-        margin-top: 20px; /* Atur margin atas sesuai keinginan Anda */
-        position: static;
-        height: auto;
-    }
+            }
 
-    /* Alatkan gaya yang sesuai untuk komponen Anda pada layar kecil */
-}
+            .container-login img {
+                width: 80%;
+                height: auto;
+                position: static;
+            }
 
+            .card {
+                width: 60%;
+                margin: 0;
+                padding: 30px;
+                margin-top: 20px;
+                position: static;
+                height: auto;
+            }
+        }
     </style>
 </head>
 
@@ -150,7 +148,7 @@
         <img src="{{ asset('img/loginimage.png') }}" alt="Gambarimage">
         <div class="card">
             @if (session()->has('login-failed'))
-                <div class="alert alert-danger">{{ session()->get('login-failed') }}</div>
+            <div class="alert alert-danger">{{ session()->get('login-failed') }}</div>
             @endif
             <div class="card-headerr">
                 <h1>Login Admin</h1>
@@ -159,13 +157,11 @@
                 @csrf
                 <div class="form-group">
                     <label for="email" class="form-label">Email:</label>
-                    <input type="email" id="email" name="email"
-                        class="form-control @error('email') is-invalid @enderror" value="{{ old('email') }}"
-                        placeholder="Masukkan Email" required>
+                    <input type="email" id="email" name="email" class="form-control @error('email') is-invalid @enderror" value="{{ old('email') }}" placeholder="Masukkan Email" required>
                     @error('email')
-                        <div class="invalid-feedback">
-                            {{ $message }}
-                        </div>
+                    <div class="invalid-feedback">
+                        {{ $message }}
+                    </div>
                     @enderror
                 </div>
                 <div class="form-group">
@@ -173,13 +169,11 @@
                         Kata Sandi:
                         <i id="password-toggle" class="bi bi-eye"></i>
                     </label>
-                    <input type="password" id="password" name="password"
-                        class="form-control @error('password') is-invalid @enderror" placeholder="Masukkan Kata Sandi"
-                        required>
+                    <input type="password" id="password" name="password" class="form-control @error('password') is-invalid @enderror" placeholder="Masukkan Kata Sandi" required>
                     @error('password')
-                        <div class="invalid-feedback">
-                            {{ $message }}
-                        </div>
+                    <div class="invalid-feedback">
+                        {{ $message }}
+                    </div>
                     @enderror
                 </div>
                 <button type="submit" class="form-button">Masuk</button>
@@ -198,6 +192,7 @@
             passwordInput.type = passwordVisible ? 'text' : 'password';
             passwordToggle.classList.toggle('bi-eye', passwordVisible);
             passwordToggle.classList.toggle('bi-eye-slash', !passwordVisible);
+
         });
     </script>
 </body>
