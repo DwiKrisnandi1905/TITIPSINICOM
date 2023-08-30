@@ -1,1 +1,1 @@
-@extends('components.admin.auth.navbar')
+@extends('components.dashboard.navbar')
