@@ -4,7 +4,6 @@
       <div class="pt-3 px-3">
         <img src="{{ asset('/img/logo1.png') }}" class="img-title">
         <div class="titles">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
           <p class="logo-text">Titipsini</p>
           <div class="circle"></div>
           <p class="logo-text">Com</p>

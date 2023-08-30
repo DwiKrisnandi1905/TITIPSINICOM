@@ -2,23 +2,14 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 pr-md-5">
-                <div class="titles" style="gap: 2px; margin-left: 100px">
-                    <img src="{{ asset('/img/logo2.png') }}" class="img-titles">
-                    <p
-                        style="font-family: Poppins; font-size: 24px; font-style: normal; font-weight: 700; line-height: normal; color: #fff">
-                        Titipsini</p>
-                    <div class="circle2"></div>
-                    <p
-                        style="font-family: Poppins; font-size: 24px; font-style: normal; font-weight: 700; line-height: normal; color: #fff">
-                        Com</p>
+                <div class="titles" style="gap: 2px; margin-left: 100px; margin-top: -80px">
+                    <img src="{{ asset('/img/logo-landscape.svg') }}" class="img-titles">
                 </div>
-                <p class="subtitles">Tempat yang aman untuk barang berharga Anda</p>
             </div>
             <div class="col-md">
                 <ul class="list-unstyled nav-links">
                     <li>
-                        <p class="footer-title"
-                            style="font-family: Poppins; font-size: 18px; font-style: normal; font-weight: 500; line-height: normal; color: #fff">
+                        <p class="footer-title" style="font-family: Poppins; font-size: 18px; font-style: normal; font-weight: 500; line-height: normal; color: #fff">
                             Produk</p>
                     </li>
                     <li><a class="footer-title" href="{{ route('guest.syarat-ketentuan') }}">Syarat & Ketentuan</a></li>
@@ -29,8 +20,7 @@
             <div class="col-md">
                 <ul class="list-unstyled nav-links">
                     <li>
-                        <p class="footer-title"
-                            style="font-family: Poppins; font-size: 18px; font-style: normal; font-weight: 500; line-height: normal; color: #fff;">
+                        <p class="footer-title" style="font-family: Poppins; font-size: 18px; font-style: normal; font-weight: 500; line-height: normal; color: #fff;">
                             Perusahaan</p>
                     </li>
                     <li><a class="footer-title" href="{{ route('guest.about') }}">Tentang Kami</a></li>

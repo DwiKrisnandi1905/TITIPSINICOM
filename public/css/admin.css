@@ -1,6 +1,7 @@
 /* sidebar */
 .sidebar {
     height: 100vh;
+    width: 30vh;
     background-color: green;
 }
 
@@ -15,14 +16,13 @@
 
 .titles {
     color: var(--grey-50, #FFF);
-    font-family: Poppins;
     font-size: 11px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     flex-direction: row;
     display: flex;
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
 .circle {
@@ -111,4 +111,17 @@ input[type="file"] {
     text-transform: capitalize;
     margin-top: -15px;
     color: #ffff;
+}
+
+.nav-item a {
+    display: block;
+    text-decoration: none;
+    color: #98A2B3;
+    padding: 10px 6px 10px 6px;
+    border-radius: 6px;
+  }
+  
+.nav-item a:hover {
+    background-color: #05450c;
+    color: #98A2B3;
 }

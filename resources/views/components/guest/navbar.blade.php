@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-secondary py-2 border-bottom">
     <div class="container">
         <div class="title-container">
-            <img src="{{ asset('/img/logo1.png') }}" class="img-title">
+            <img src="{{ asset('/img/logo1.svg') }}" class="img-title">
             <div class="titles">
                 <p class="logo-text" style="color: #068113">Titipsini</p>
                 <div class="circle"></div>
