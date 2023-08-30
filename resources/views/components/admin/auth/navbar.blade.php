@@ -28,7 +28,7 @@
                 <li class="nav-item {{ Request::is('faq') ? 'active-page' : '' }}">
                     <a class="navigasi" href="{{ route('guest.faq') }}">FAQ</a>
                 </li>
-                <li class="nav-item {{ Request::is('/admin/login') ? 'active-page' : '' }}">
+                <li class="nav-item {{ Request::is('admin/login') ? 'active-page' : '' }}">
                     <a class="navigasi" href="{{ route('admin.login') }}"><i class="bi bi-person-fill"></i></a>
                 </li>
             </ul>
