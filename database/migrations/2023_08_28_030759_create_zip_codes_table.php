@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::create('zip_codes', function (Blueprint $table) {
             $table->uuid('id')->primary();
-            $table->char('zip_code', 5)->unique();
+            $table->char('zip_code', 5);
             $table->foreignUuid("district_id")->constrained()->cascadeOnDelete();
             $table->timestamps();
         });

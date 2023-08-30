@@ -15,10 +15,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         $this->call([
-            ProvinceSeeder::class,
-            CitySeeder::class,
-            DistrictSeeder::class,
-            ZipCodeSeeder::class,
+            LocationSeeder::class,
             AdminSeeder::class
         ]);
     }
