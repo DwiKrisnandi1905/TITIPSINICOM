@@ -4,6 +4,7 @@
       <div class="pt-3 px-3">
         <img src="{{ asset('/img/logo1.png') }}" class="img-title">
         <div class="titles">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
           <p class="logo-text">Titipsini</p>
           <div class="circle"></div>
           <p class="logo-text">Com</p>
@@ -21,43 +22,43 @@
         <ul class="nav flex-column">
           <li class="nav-item">
             <a class="nav-link active" href="#">
-              <img src="{{ asset('/img/dashboard.png') }}" class="logo-image" alt="Logo">
+              <img src="{{ asset('/img/dashboard1.svg') }}" class="logo-image" alt="Logo">
               Dashboard
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="#">
-              <img src="{{ asset('/img/user.png') }}" class="logo-image" alt="Logo">
+              <img src="{{ asset('/img/user1.svg') }}" class="logo-image" alt="Logo">
               Profil
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="#">
-              <img src="{{ asset('/img/users.png') }}" class="logo-image" alt="Logo">
+              <img src="{{ asset('/img/users1.svg') }}" class="logo-image" alt="Logo">
               Pengguna
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="#">
-              <img src="{{ asset('/img/database.png') }}" class="logo-image" alt="Logo">
+              <img src="{{ asset('/img/database1.svg') }}" class="logo-image" alt="Logo">
               Data
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="#">
-              <img src="{{ asset('/img/shopping-bag.png') }}" class="logo-image" alt="Logo">
+              <img src="{{ asset('/img/shopping-bag1.svg') }}" class="logo-image" alt="Logo">
               Vendor
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="#">
-              <img src="{{ asset('/img/settings.png') }}" class="logo-image" alt="Logo">
+              <img src="{{ asset('/img/settings1.svg') }}" class="logo-image" alt="Logo">
               Pengaturan
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="#">
-              <img src="{{ asset('/img/log-out.png') }}" class="logo-image" alt="Logo">
+              <img src="{{ asset('/img/log-out1.svg') }}" class="logo-image" alt="Logo">
               Keluar
             </a>
           </li>
