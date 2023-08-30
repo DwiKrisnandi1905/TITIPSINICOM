@@ -30,7 +30,7 @@
         line-height: normal;
         flex-direction: row;
         display: flex;
-        margin-left: 25px;
+        margin-left: 38px;
     }
     .circle {
     width: 4px;
@@ -41,6 +41,9 @@
     }
     .nav-link.active {
     color: white; 
+    }
+    .nav-link.active img {
+    width: 20px;
     }
     .profile-upload {
         text-align: center;
@@ -128,36 +131,43 @@ input[type="file"] {
         <ul class="nav flex-column">
           <li class="nav-item">
             <a class="nav-link active" href="#">
+            <img src="{{ asset('/img/dashboard.png') }}" class="logo-image" alt="Logo">
               Dashboard
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="#">
+            <img src="{{ asset('/img/user.png') }}" class="logo-image" alt="Logo">
               Profil
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="#">
+            <img src="{{ asset('/img/users.png') }}" class="logo-image" alt="Logo">
               Pengguna
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="#">
+            <img src="{{ asset('/img/database.png') }}" class="logo-image" alt="Logo">
               Data
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="#">
+            <img src="{{ asset('/img/shopping-bag.png') }}" class="logo-image" alt="Logo">
               Vendor
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="#">
+            <img src="{{ asset('/img/settings.png') }}" class="logo-image" alt="Logo">
               Pengaturan
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="#">
+            <img src="{{ asset('/img/log-out.png') }}" class="logo-image" alt="Logo">
               Keluar
             </a>
           </li>
