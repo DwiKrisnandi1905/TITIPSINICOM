@@ -185,13 +185,6 @@ input[type="file"] {
         </ul>
       </div>
     </div>
-    <!-- Konten Utama -->
-    <div class="flex-grow-1 p-5">
-      <h1>Konten Utama</h1>
-      <p>Ini adalah konten utama dari halaman.</p>
-    </div>
-  </div>
-
   <!-- Script Bootstrap 5 (diperlukan jQuery dan Popper.js) -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script>
