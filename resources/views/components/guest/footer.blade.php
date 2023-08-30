@@ -63,7 +63,7 @@
                 <a href="#" class="footer-app">
                     <img src="{{ asset('/img/getplay.png') }}" alt="Google Play" style="width: 150px">
                 </a>
-                <a href="#">
+                <a href="#" class="footer-app">
                     <img src="{{ asset('/img/getapps.png') }}" alt="Apple App" style="width: 150px">
                 </a>
             </div>
