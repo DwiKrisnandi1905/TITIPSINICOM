@@ -19,7 +19,7 @@
           </div>
         </div>
         <ul class="nav flex-column">
-          <li class="nav-item">
+          <li class="nav-item {{ Request::is('admin/dashboard') ? 'active-page' : '' }}">
             <a class="nav-link active" href="#">
               <img src="{{ asset('/img/dashboard1.svg') }}" class="logo-image" alt="Logo">
               Dashboard
