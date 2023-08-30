@@ -61,11 +61,9 @@
               Keluar
             </a>
           </li>
-          <!-- ... daftar menu lainnya ... -->
         </ul>
       </div>
     </div>
-    <!-- Script Bootstrap 5 (diperlukan jQuery dan Popper.js) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
       document.addEventListener("DOMContentLoaded", function() {
