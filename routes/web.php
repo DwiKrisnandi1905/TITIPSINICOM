@@ -31,6 +31,6 @@ Route::prefix('admin')->group(function () {
     });
 
     Route::middleware("role:admin")->group(function () {
-        Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('admin.dashboard');
+    Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('admin.dashboard');
     });
 });
