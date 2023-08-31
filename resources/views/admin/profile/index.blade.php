@@ -1,6 +1,3 @@
 @extends('admin.dashboard')
-@section('container')
-
-
-
+@section('content')
 @endsection
