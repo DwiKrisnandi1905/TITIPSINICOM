@@ -9,15 +9,10 @@
                 <p class="logo-text">Com</p>
             </div>
             <p class="subtitle">Tempat yang aman untuk barang berharga Anda</p>
-            <div class="profile-upload">
-                <div class="profile-image">
-                    <img src="{{ asset('/img/Logo.png') }}" alt="Profile Picture">
-                    <div class="overlay">
-                        <input type="file" id="profile-input" accept="image/*">
-                        <label class="label-upload" for="profile-input">upload</label>
-                    </div>
-                </div>
-            </div>
+            <div class="profile-image layout-2">
+            <img src="{{ asset('/img/Logo.png') }}" alt="Profile Picture">
+        </div>
+    </div>
             <ul class="nav flex-column">
                 <li class="nav-item {{ Request::is('admin/home') ? 'active-page' : '' }}">
                     <a class="nav-link active" href="/admin/home">
@@ -70,12 +65,14 @@
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         const profileInput = document.getElementById("profile-input");
-        const profileImage = document.querySelector(".profile-image img");
+        const profileImageLayout1 = document.querySelector(".profile-image.layout-1 img");
+        const profileImageLayout2 = document.querySelector(".profile-image.layout-2 img");
 
         // Mengambil data gambar dari penyimpanan lokal saat halaman dimuat
         const savedImageData = localStorage.getItem("profileImage");
         if (savedImageData) {
-            profileImage.src = savedImageData;
+            profileImageLayout1.src = savedImageData;
+            profileImageLayout2.src = savedImageData;
         }
 
         profileInput.addEventListener("change", function(event) {
@@ -85,7 +82,8 @@
                 const reader = new FileReader();
 
                 reader.onload = function(e) {
-                    profileImage.src = e.target.result;
+                    profileImageLayout1.src = e.target.result;
+                    profileImageLayout2.src = e.target.result;
 
                     localStorage.setItem("profileImage", e.target.result);
                 };
