@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\Admin\Auth\LoginController;
 use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\Admin\NotificationController;
+use App\Http\Controllers\Admin\ProfileController;
 use App\Http\Controllers\GuestController;
 use Illuminate\Support\Facades\Route;
 
@@ -26,11 +28,18 @@ Route::get('/contact', [GuestController::class, 'contact'])->name("guest.contact
 
 Route::prefix('admin')->group(function () {
     Route::middleware("guest")->group(function () {
-        Route::get('/login', [LoginController::class, 'login'])->name('admin.login');
+        Route::get('/login', [LoginController::class, 'index'])->name('admin.login');
         Route::post('/login', [LoginController::class, 'authenticate'])->name('admin.login.authenticate');
     });
 
     Route::middleware("role:admin")->group(function () {
-    Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('admin.dashboard');
+        Route::get('/dashboard', [DashboardController::class, 'index'])->name('admin.dashboard');
+
+        Route::get('/notification', [NotificationController::class, 'index'])->name('admin.notification.index');
+        Route::post('/notification', [NotificationController::class, 'delete'])->name('admin.notification.delete');
+
+        Route::get('/profile', [ProfileController::class, 'index'])->name('admin.profile.index');
+        Route::get('/profile/edit', [ProfileController::class, 'edit'])->name('admin.profile.edit');
+        Route::put('/profile', [ProfileController::class, 'update'])->name('admin.profile.update');
     });
 });

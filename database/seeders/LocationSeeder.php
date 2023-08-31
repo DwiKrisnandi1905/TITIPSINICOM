@@ -47,10 +47,12 @@ class LocationSeeder extends Seeder
                             // Zip Code
                             $zipCodes = explode(",", $districtData[5]);
                             foreach ($zipCodes as $zipCode) {
-                                ZipCode::create([
-                                    'zip_code' => $zipCode,
-                                    "district_id" => $district->id
-                                ]);
+                                if ($zipCode != "") {
+                                    ZipCode::create([
+                                        'zip_code' => $zipCode,
+                                        "district_id" => $district->id
+                                    ]);
+                                }
                             }
                         }
                     }
