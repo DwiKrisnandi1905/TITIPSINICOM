@@ -33,25 +33,29 @@
     </div>
 
     <div class="content-total">
-        <div class="row justify-content-between">
-            <div class="col">
-                <div class="container-col custom-style">
-                    Konten Kolom 1
+        <div class="row">
+            <div class="col-md-3">
+                <div class="container-total text-center">
+                    <h2 style="font-size: 24px;">Total Pengguna</h2>
+                    <h1 class="text-total">20</h1>
                 </div>
             </div>
-            <div class="col">
-                <div class="container-col custom-style">
-                    Konten Kolom 2
+            <div class="col-md-3">
+                <div class="container-total text-center">
+                    <h2 style="font-size: 24px;">Total Customer</h2>
+                    <h1 class="text-total">20</h1>
                 </div>
             </div>
-            <div class="col">
-                <div class="container-col custom-style">
-                    Konten Kolom 3
+            <div class="col-md-3">
+                <div class="container-total text-center">
+                    <h2 style="font-size: 24px;">Total Vendor</h2>
+                    <h1 class="text-total">20</h1>
                 </div>
             </div>
-            <div class="col">
-                <div class="container-col custom-style">
-                    Konten Kolom 4
+            <div class="col-md-3">
+                <div class="container-total text-center">
+                    <h2 style="font-size: 24px;">Total Layanan</h2>
+                    <h1 class="text-total">20</h1>
                 </div>
             </div>
         </div>

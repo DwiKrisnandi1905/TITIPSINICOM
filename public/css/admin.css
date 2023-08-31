@@ -174,22 +174,28 @@ input[type="file"] {
 
 .content-total {
     margin-left: 28px;
-    width: 965px;
+    width: 960px;
     height: 200px;
-    background-color: #068113;
     display: flex;
 }
 
-.justify-content-between {
-    justify-content: space-between;
-}
-
-
-.custom-style {
+.container-total {
+    width: 235px;
+    height: 200px;
     background-color: #FFF;
+    border: 1px dashed #000;
+    margin-top: 10px;
+    padding-top: 10px;
 }
 
-
+.text-total {
+    color: #299935;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 
 /* notifikasi */
 .notif {
