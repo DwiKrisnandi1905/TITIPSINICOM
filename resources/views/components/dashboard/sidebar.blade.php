@@ -19,13 +19,13 @@
                 </div>
             </div>
             <ul class="nav flex-column">
-                <li class="nav-item {{ Request::is('admin/dashboard') ? 'active-page' : '' }}">
-                    <a class="nav-link active" href="/admin/dashboard">
+                <li class="nav-item {{ Request::is('admin/home') ? 'active-page' : '' }}">
+                    <a class="nav-link active" href="/admin/home">
                         <img src="{{ asset('/img/dashboard1.svg') }}" class="logo-image" alt="Logo">
                         Dashboard
                     </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item {{ Request::is('admin/profile') ? 'active-page' : '' }}">
                     <a class="nav-link active" href="/admin/profile">
                         <img src="{{ asset('/img/user1.svg') }}" class="logo-image" alt="Logo">
                         Profil

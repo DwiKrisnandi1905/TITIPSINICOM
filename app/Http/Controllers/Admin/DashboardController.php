@@ -13,4 +13,10 @@ class DashboardController extends Controller
             'title' => 'Dashboard'
         ]);
     }
+    public function home()
+    {
+        return view('admin.home.index', [
+            'title' => 'Dashboard'
+        ]);
+    }
 }

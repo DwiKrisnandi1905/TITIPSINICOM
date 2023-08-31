@@ -35,6 +35,7 @@ Route::prefix('admin')->group(function () {
 
     Route::middleware("role:admin")->group(function () {
         Route::get('/dashboard', [DashboardController::class, 'index'])->name('admin.dashboard');
+        Route::get('/home', [DashboardController::class, 'home'])->name('admin.home.index');
 
         Route::get('/notification', [NotificationController::class, 'index'])->name('admin.notification.index');
         Route::post('/notification', [NotificationController::class, 'delete'])->name('admin.notification.delete');

@@ -9,7 +9,9 @@ class NotificationController extends Controller
 {
     public function index()
     {
-        return "Ganti ke view notification";
+        return view('admin.notification.index', [
+            'title' => 'Notifikasi'
+        ]);
     }
 
     public function delete()

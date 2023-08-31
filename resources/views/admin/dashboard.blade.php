@@ -30,7 +30,9 @@
             </div>
             <div class="topbar sticky-top">
                 <span class="notification-icon">
-                    <i class="bi bi-bell"></i>
+                    <a class="nav-link active" href="/admin/notification" style="color: black">
+                        <i class="bi bi-bell"></i>
+                    </a>
                 </span>
             </div>
             <div class="col-md-9">
