@@ -20,7 +20,7 @@ class LoginController extends Controller
         if (Auth::guard('admin')->attempt($request->only('email', 'password'))) {
             return redirect()->route('admin.dashboard');
         }
-
-        return back()->withInput()->with('login-failed', 'Email atau password salah');
+        toast('Email atau password salah', 'error');
+        return back()->withInput();
     }
 }
