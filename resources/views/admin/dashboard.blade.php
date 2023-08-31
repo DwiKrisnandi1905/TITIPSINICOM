@@ -13,16 +13,16 @@
     <link rel="icon" href="{{ asset('/img/logo1.png') }}" type="image/png">
     <title>{{ $title }}</title>
 </head>
-
-<body>
 <style>
     .col-md-9 {
     position: fixed;
     top: 0;
-    left: 170px;
+    left: 180px;
     bottom: 0;
     }
 </style>
+
+<body>
 
 <div class="container mt-4">
     <div class="row">
