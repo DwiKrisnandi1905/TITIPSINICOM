@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Admin\Auth\LoginController;
 use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\Admin\LogoutController;
 use App\Http\Controllers\Admin\NotificationController;
 use App\Http\Controllers\Admin\ProfileController;
 use App\Http\Controllers\GuestController;
@@ -41,5 +42,7 @@ Route::prefix('admin')->group(function () {
         Route::get('/profile', [ProfileController::class, 'index'])->name('admin.profile.index');
         Route::get('/profile/edit', [ProfileController::class, 'edit'])->name('admin.profile.edit');
         Route::put('/profile', [ProfileController::class, 'update'])->name('admin.profile.update');
+
+        Route::get('/logout', [LogoutController::class, 'logout'])->name('admin.logout');
     });
 });
