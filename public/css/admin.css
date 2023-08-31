@@ -126,8 +126,20 @@ input[type="file"] {
     color: #98A2B3;
 }
 
+.logout-button:hover {
+    background-color: #05450c;
+    color: #98A2B3;
+    border-radius: 6px;
+}
+
 .active-page {
     background-color: #05450c;
     color: #98A2B3;
     border-radius: 6px;
+}
+
+/* dashboard */
+.container-admin {
+    position: relative;
+    width: 100%;
 }

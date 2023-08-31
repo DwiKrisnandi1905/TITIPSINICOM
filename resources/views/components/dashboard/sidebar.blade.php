@@ -20,13 +20,13 @@
             </div>
             <ul class="nav flex-column">
                 <li class="nav-item {{ Request::is('admin/dashboard') ? 'active-page' : '' }}">
-                    <a class="nav-link active" href="#">
+                    <a class="nav-link active" href="/admin/dashboard">
                         <img src="{{ asset('/img/dashboard1.svg') }}" class="logo-image" alt="Logo">
                         Dashboard
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">
+                    <a class="nav-link active" href="/admin/profile">
                         <img src="{{ asset('/img/user1.svg') }}" class="logo-image" alt="Logo">
                         Profil
                     </a>
@@ -87,7 +87,6 @@
                 reader.onload = function(e) {
                     profileImage.src = e.target.result;
 
-                    // Menyimpan data gambar ke penyimpanan lokal
                     localStorage.setItem("profileImage", e.target.result);
                 };
 

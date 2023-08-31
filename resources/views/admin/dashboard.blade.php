@@ -15,8 +15,17 @@
 </head>
 
 <body>
-    @include('components.dashboard.sidebar')
-
+    
+    <div class="container-admin">
+        @include('components.dashboard.sidebar')
+        <div class="main active">
+            <div class="topbar sticky-top bg-white">
+        
+            </div>
+            @yield('container')
+            
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous">
     </script>

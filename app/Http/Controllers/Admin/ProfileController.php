@@ -9,7 +9,9 @@ class ProfileController extends Controller
 {
     public function index()
     {
-        return "Ganti ke halaman profile";
+        return view('admin.profile.index', [
+            'title' => 'Profile'
+        ]);
     }
 
     public function edit()
