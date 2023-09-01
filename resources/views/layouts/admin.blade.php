@@ -12,6 +12,7 @@
     <link href="{{ asset('/css/admin.css') }}" rel="stylesheet" />
     <link rel="icon" href="{{ asset('/img/logo1.png') }}" type="image/png">
     <title>{{ $title }}</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <style>
     .col-md-9 {

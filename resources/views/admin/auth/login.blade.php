@@ -91,7 +91,9 @@
         }
 
         .form-button:hover {
-            background-color: #0056b3;
+            background-color: white;
+            color: #068113;
+            border: 2px solid #068113;
         }
 
         #password-toggle {

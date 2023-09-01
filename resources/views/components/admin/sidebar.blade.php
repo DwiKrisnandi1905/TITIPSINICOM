@@ -41,13 +41,23 @@
                     <a class="nav-link active" href="#">
                         <img src="{{ asset('/img/database1.svg') }}" class="logo-image" alt="Logo">
                         Data
+                        <i class="bi bi-caret-down-fill data"></i>
                     </a>
+                    <ul class="sub-menu">
+                        <li><a href="#" style="color: white;">Customer</a></li>
+                        <li><a href="#" style="color: white;">Pengembalian</a></li>
+                    </ul>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="#">
                         <img src="{{ asset('/img/shopping-bag1.svg') }}" class="logo-image" alt="Logo">
                         Vendor
+                        <i class="bi bi-caret-down-fill vendor"></i>
                     </a>
+                    <ul class="sub-menu">
+                        <li><a href="#" style="color: white;">Customer</a></li>
+                        <li><a href="#" style="color: white;">Pengembalian</a></li>
+                    </ul>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="#">
@@ -56,8 +66,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <form class="nav-link active logout-button px-2" action="{{ route('admin.logout') }}"
-                        method="GET">
+                    <form class="nav-link active logout-button px-2" action="{{ route('admin.logout') }}" method="GET">
                         @csrf
                         <img src="{{ asset('/img/log-out1.svg') }}" class="logo-image" alt="Logo">
                         Keluar
@@ -93,5 +102,16 @@
                 reader.readAsDataURL(selectedFile);
             }
         });
+    });
+
+    $('.data').click(function(e) {
+        e.preventDefault();
+        
+        $(this).closest('.nav-item').find('.sub-menu').toggle();
+    });
+    $('.vendor').click(function(e) {
+        e.preventDefault();
+
+        $(this).closest('.nav-item').find('.sub-menu').toggle();
     });
 </script>

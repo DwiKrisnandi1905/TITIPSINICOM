@@ -13,6 +13,20 @@ body {
     bottom: 0;
 }
 
+.data {
+    margin-left: 59px;
+}
+
+.vendor {
+    margin-left: 40px;
+}
+
+.sub-menu {
+    list-style: none;
+    display: none; 
+}
+   
+
 .img-title {
     filter: brightness(0) invert(1);
     width: 60px;
@@ -200,6 +214,15 @@ input[type="file"] {
     margin-top: 10px;
     padding-top: 10px;
 }
+
+.content-tabel table td {
+    border: 2px solid #D4DBEA; 
+}
+
+.content-tabel table th {
+    border: 2px solid #068113; 
+}
+
 
 .text-total {
     color: #299935;

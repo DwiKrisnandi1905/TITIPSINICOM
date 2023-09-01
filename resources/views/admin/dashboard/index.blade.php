@@ -41,25 +41,25 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="container-total text-center">
-                    <h2 style="font-size: 24px;">Total Pengguna</h2>
+                    <h2 style="font-size: 24px; font-weight: 700;">Total Pengguna</h2>
                     <h1 class="text-total">{{ $userCount }}</h1>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="container-total text-center">
-                    <h2 style="font-size: 24px;">Total Customer</h2>
+                    <h2 style="font-size: 24px; font-weight: 700;">Total Customer</h2>
                     <h1 class="text-total">{{ $customerCount }}</h1>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="container-total text-center">
-                    <h2 style="font-size: 24px;">Total Vendor</h2>
+                    <h2 style="font-size: 24px; font-weight: 700;">Total Vendor</h2>
                     <h1 class="text-total">{{ $vendorCount }}</h1>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="container-total text-center">
-                    <h2 style="font-size: 24px;">Total Layanan</h2>
+                    <h2 style="font-size: 24px; font-weight: 700;">Total Layanan</h2>
                     <h1 class="text-total">{{ $serviceCount }}</h1>
                 </div>
             </div>
@@ -78,7 +78,7 @@
                             <a href="#" style="color: #068113; text-decoration: none;">View All</a>
                         </div>
                     </div>
-                    <table class="table mt-2">
+                    <table class="table mt-1">
                         <thead>
                             <tr>
                                 <th>Username</th>
@@ -121,7 +121,7 @@
                             <a href="#" style="color: #068113; text-decoration: none;">View All</a>
                         </div>
                     </div>
-                    <table class="table mt-2">
+                    <table class="table mt-1">
                         <thead>
                             <tr>
                                 <th>Username</th>
