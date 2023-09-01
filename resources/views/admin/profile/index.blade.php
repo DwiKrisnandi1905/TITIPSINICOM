@@ -1,4 +1,4 @@
-@extends('admin.dashboard')
+@extends('layout.admin')
 @section('content')
     <style>
         .profile-upload {
