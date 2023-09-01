@@ -21,10 +21,10 @@ return new class extends Migration
             $table->string('password');
             $table->string('pin');
             $table->char('nik', 16);
-            $table->enum('status', ["verified", "unverified", "processed"]);
+            $table->enum('status', ['verified', 'unverified', 'processed']);
             $table->date('date_of_birth');
             $table->string('place_of_birth', 100);
-            $table->enum('gender', ["male", "female"]);
+            $table->enum('gender', ['male', 'female']);
             $table->string('phone_number', 15);
             $table->string('ktp_image');
             $table->string('ktp_selfie_image');

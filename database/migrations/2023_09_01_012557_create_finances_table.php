@@ -13,15 +13,17 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('customer_addresses', function (Blueprint $table) {
+        Schema::create('finances', function (Blueprint $table) {
             $table->uuid('id')->primary();
-            $table->foreignUuid('customer_id')->constrained()->cascadeOnDelete();
-            $table->string('recipient', 100);
+            $table->string('name');
+            $table->string('email', 100)->unique();
+            $table->string('username', 100)->unique();
+            $table->string('password');
+            $table->string('profile_pic')->nullable();
+            $table->text('address');
+            $table->enum('gender', ['male', 'female']);
             $table->foreignUuid('zip_code_id')->constrained()->cascadeOnDelete();
-            $table->text('full_address');
-            $table->text('description')->nullable();
-            $table->enum('address_type', ['house', 'office', 'warehouse']);
-            $table->boolean('is_main_address')->default(false);
+            $table->string('phone_number', 15);
             $table->timestamps();
         });
     }
@@ -33,6 +35,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('customer_addresses');
+        Schema::dropIfExists('finances');
     }
 };

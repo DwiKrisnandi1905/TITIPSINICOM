@@ -13,10 +13,10 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('zip_codes', function (Blueprint $table) {
+        Schema::create('banneds', function (Blueprint $table) {
             $table->uuid('id')->primary();
-            $table->char('zip_code', 5);
-            $table->foreignUuid('district_id')->constrained()->cascadeOnDelete();
+            $table->morphs('bannedable');
+            $table->text('description');
             $table->timestamps();
         });
     }
@@ -28,6 +28,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('zip_codes');
+        Schema::dropIfExists('banneds');
     }
 };

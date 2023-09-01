@@ -11,7 +11,7 @@ class LoginController extends Controller
     public function index()
     {
         return view('admin.auth.login', [
-            'title' => 'Login'
+            'title' => 'Login',
         ]);
     }
 
@@ -21,6 +21,7 @@ class LoginController extends Controller
             return redirect()->route('admin.dashboard');
         }
         toast('Email atau password salah', 'error');
+
         return back()->withInput();
     }
 }

@@ -13,10 +13,13 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('zip_codes', function (Blueprint $table) {
+        Schema::create('building_vendor_services', function (Blueprint $table) {
             $table->uuid('id')->primary();
-            $table->char('zip_code', 5);
-            $table->foreignUuid('district_id')->constrained()->cascadeOnDelete();
+            $table->foreignUuid('vendor_id')->constrained()->cascadeOnDelete();
+            $table->string('guard_name', 100);
+            $table->enum('status', ['suspended', 'processed', 'verified']);
+            $table->string('skck_image');
+            $table->boolean('is_active');
             $table->timestamps();
         });
     }
@@ -28,6 +31,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('zip_codes');
+        Schema::dropIfExists('building_vendor_services');
     }
 };

@@ -5,21 +5,16 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
-class Customer extends Model
+class Finance extends Model
 {
     use HasFactory, HasUuids;
 
     protected $guarded = ['id'];
 
-    protected $hidden = [
-        'password',
-        'pin',
-    ];
-
-    public function customerAddresses(): HasMany
+    public function zipCode(): BelongsTo
     {
-        return $this->hasMany(CustomerAddress::class);
+        return $this->belongsTo(ZipCode::class);
     }
 }

@@ -16,7 +16,7 @@ class DatabaseSeeder extends Seeder
     {
         $this->call([
             LocationSeeder::class,
-            AdminSeeder::class
+            AdminSeeder::class,
         ]);
     }
 }

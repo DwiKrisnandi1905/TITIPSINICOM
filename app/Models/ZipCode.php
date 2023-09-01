@@ -19,9 +19,19 @@ class ZipCode extends Model
         return $this->hasMany(Admin::class);
     }
 
-    public function customers(): HasMany
+    public function finances(): HasMany
     {
-        return $this->hasMany(Customer::class);
+        return $this->hasMany(Finance::class);
+    }
+
+    public function vendors(): HasMany
+    {
+        return $this->hasMany(Vendor::class);
+    }
+
+    public function customerAdresses(): HasMany
+    {
+        return $this->hasMany(CustomerAddress::class);
     }
 
     public function district(): BelongsTo
