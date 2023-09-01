@@ -51,10 +51,10 @@
             </div>
             <div class="col-md">
                 <a href="#" class="footer-app">
-                    <img src="{{ asset('/img/getplay.png') }}" alt="Google Play" style="width: 150px">
+                    <img src="{{ asset('/img/getplay.svg') }}" alt="Google Play" style="width: 150px">
                 </a>
                 <a href="#" class="footer-app">
-                    <img src="{{ asset('/img/getapps.png') }}" alt="Apple App" style="width: 150px">
+                    <img src="{{ asset('/img/getapps.svg') }}" alt="Apple App" style="width: 150px">
                 </a>
             </div>
         </div>

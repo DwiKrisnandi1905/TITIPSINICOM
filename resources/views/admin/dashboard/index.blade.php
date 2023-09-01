@@ -19,7 +19,7 @@
                             {{ date('F', mktime(0, 0, 0, $i, 10)) }}
                         </a>
                         </li>
-                    @endfor
+                        @endfor
                 </ul>
             </div>
         </div>

@@ -9,15 +9,9 @@
                 <p class="logo-text">Com</p>
             </div>
             <p class="subtitle">Tempat yang aman untuk barang berharga Anda</p>
-            <!-- <div class="profile-upload">
-                <div class="profile-image">
-                    <img src="{{ asset('/img/Logo.png') }}" alt="Profile Picture">
-                    <div class="overlay">
-                        <input type="file" id="profile-input" accept="image/*">
-                        <label class="label-upload" for="profile-input">upload</label>
-                    </div>
-                </div>
-            </div> -->
+            <div class="profile-image layout-2">
+                <img src="{{ asset('/img/users2.png') }}" alt="Profile Picture">
+            </div>
             <ul class="nav flex-column">
                 <li class="nav-item {{ Request::is('admin/dashboard') ? 'active-page' : '' }}">
                     <a class="nav-link active" href="/admin/dashboard">
@@ -106,7 +100,7 @@
 
     $('.data').click(function(e) {
         e.preventDefault();
-        
+
         $(this).closest('.nav-item').find('.sub-menu').toggle();
     });
     $('.vendor').click(function(e) {
