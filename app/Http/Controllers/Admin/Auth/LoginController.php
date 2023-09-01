@@ -18,7 +18,7 @@ class LoginController extends Controller
     public function authenticate(LoginRequest $request)
     {
         if (Auth::guard('admin')->attempt($request->only('email', 'password'))) {
-            return redirect()->route('admin.home');
+            return redirect()->route('admin.dashboard');
         }
         toast('Email atau password salah', 'error');
         return back()->withInput();

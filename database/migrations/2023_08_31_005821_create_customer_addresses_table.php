@@ -17,7 +17,7 @@ return new class extends Migration
             $table->uuid('id')->primary();
             $table->foreignUuid('customer_id')->constrained()->cascadeOnDelete();
             $table->string('recipient', 100);
-            $table->foreignUuid('zip_id')->constrained()->cascadeOnDelete();
+            $table->foreignUuid('zip_code_id')->constrained()->cascadeOnDelete();
             $table->text('full_address');
             $table->text('description')->nullable();
             $table->enum('address_type', ["house", "office", "warehouse"]);

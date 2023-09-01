@@ -9,13 +9,7 @@ class DashboardController extends Controller
 {
     public function index()
     {
-        return view('admin.dashboard', [
-            'title' => 'Dashboard'
-        ]);
-    }
-    public function home()
-    {
-        return view('admin.home.index', [
+        return view('admin.dashboard.index', [
             'title' => 'Dashboard'
         ]);
     }

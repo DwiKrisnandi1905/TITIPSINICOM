@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.guest')
 @section('title', $title)
 @section('content')
     <div class="container-faq">
@@ -61,7 +61,7 @@
 
         <!-- 4 -->
         <div class="container text-start">
-            <p style="font-size: 20px;">Pertanyaan anda tidak ada? 
+            <p style="font-size: 20px;">Pertanyaan anda tidak ada?
                 <a href="/contact" style="color: #000; text-decoration: underline !important; font-weight: 700">
                     Tanyakan disini
                 </a>
