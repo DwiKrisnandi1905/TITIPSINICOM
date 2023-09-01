@@ -81,7 +81,6 @@
         line-height: normal;
     }
 
-    /*data user*/
     .profile-info {
         margin-top: 70px;
         margin-left: -83px;
@@ -134,7 +133,6 @@
         line-height: normal;
     }
 
-    /*button*/
     .buttonubah {
         display: flex;
         justify-content: center;
@@ -189,7 +187,7 @@
                 <h1>Admin Profile</h1>
                 <div class="profile-upload">
                     <div class="profile-image layout-1">
-                        <img src="{{ asset('/img/Logo.png') }}" alt="Profile Picture">
+                        <img src="{{ asset('/img/users2.png') }}" alt="Profile Picture">
                         <div class="overlay">
                             <input type="file" id="profile-input" accept="image/*">
                             <label class="label-upload" for="profile-input">upload</label>
@@ -236,10 +234,20 @@
                     <input type="text" class="form-control" id="nama" name="nama" value="John Doe" readonly>
                 </div>
                 <div class="buttonubah">
-                    <button class="ubah-button">Ubah</button>
+                    <button class="ubah-button" id="tombolUbah">Ubah</button>
                 </div>
             </div>
         </div>
     </div>
 </div>
+<script>
+    // Temukan tombol "Ubah" berdasarkan ID
+    var tombolUbah = document.getElementById('tombolUbah');
+
+    // Tambahkan event listener untuk mengarahkan ke halaman berikutnya saat tombol diklik
+    tombolUbah.addEventListener('click', function() {
+        // Mengarahkan pengguna ke halaman berikutnya
+        window.location.href = 'profile/edit';
+    });
+</script>
 @endsection
