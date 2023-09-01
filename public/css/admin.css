@@ -187,14 +187,14 @@ input[type="file"] {
 
 .dropdown-end1 {
     position: absolute;
-    right: 150px;
+    right: 160px;
     top: 16%;
     transform: translateY(-50%);
 }
 
 .dropdown-end2 {
     position: absolute;
-    right: 65px;
+    right: 75px;
     top: 16%;
     transform: translateY(-50%);
 }
