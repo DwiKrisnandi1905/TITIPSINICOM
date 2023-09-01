@@ -187,7 +187,7 @@
                 <h1>Admin Profile</h1>
                 <div class="profile-upload">
                     <div class="profile-image layout-1">
-                        <img src="{{ asset('/img/Logo.png') }}" alt="Profile Picture">
+                        <img src="{{ asset('/img/users2.png') }}" alt="Profile Picture">
                         <div class="overlay">
                             <input type="file" id="profile-input" accept="image/*">
                             <label class="label-upload" for="profile-input">upload</label>
