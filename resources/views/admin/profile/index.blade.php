@@ -17,8 +17,8 @@
             border: 2px solid black;
             border-radius: 15%;
             overflow: hidden;
-            margin-top: 10px;
-            margin-left: 20px;
+            margin-top: 50px;
+            margin-left: 50px;
         }
 
         .layout-1 img {
@@ -83,8 +83,8 @@
         }
         /*data user*/
     .profile-info {
-        margin-top: 110px;
-        margin-left: -100px;
+        margin-top: 70px;
+        margin-left: -83px;
     }
     .profile-info h2 {
         text-align: left;
@@ -122,7 +122,7 @@
         border-color: transparent;
     }
     .profile-picture h1 {
-        margin: 70px 150px;
+        margin: 30px 170px;
         color: #000;
         font-family: Raleway;
         font-size: 32px;
