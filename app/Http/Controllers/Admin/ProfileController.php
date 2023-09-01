@@ -15,7 +15,9 @@ class ProfileController extends Controller
 
     public function edit()
     {
-        return 'Ganti ke halaman edit profile';
+        return view('admin.profile.edit', [
+            'title' => 'Profile',
+        ]);
     }
 
     public function update()
