@@ -158,17 +158,6 @@
     .ubah-button:active {
         background-color: #004b9e; /* Warna latar belakang saat ditekan */
     }
-    .no-border input {
-        border: none;
-    }
-    .form-control1 {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    background-color: transparent;
-}
-
 </style>
 <div class="container-profile">
     <div class="row">
@@ -192,13 +181,13 @@
                 <h2>Account ID:1
                 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
                 </h2>
-                <div class="form-group no-border">
+                <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="text" class="form-control1" id="email" name="email" value="admintitip1@gmail.com">
+                    <input type="text" class="form-control" id="email" name="email" value="admintitip1@gmail.com">
                 </div>
-                <div class="form-group no-border">
+                <div class="form-group">
                     <label for="username">Username</label>
-                    <input type="text" class="form-control1" id="username" name="username" value="admintitip1">
+                    <input type="text" class="form-control" id="username" name="username" value="admintitip1">
                 </div>
                 <div class="form-group">
                     <label for="nama">Nama Lengkap</label>

@@ -203,35 +203,35 @@
                 </h2>
                 <div class="form-group no-border">
                     <label for="email">Email</label>
-                    <input type="text" class="form-control1" id="email" name="email" value="user@example.com" readonly>
+                    <input type="text" class="form-control1" id="email" name="email" value="admintitip1@gmail.com" readonly>
                 </div>
                 <div class="form-group no-border">
                     <label for="username">Username</label>
-                    <input type="text" class="form-control1" id="username" name="username" value="myusername" readonly>
+                    <input type="text" class="form-control1" id="username" name="username" value="admintitip1" readonly>
                 </div>
                 <div class="form-group">
                     <label for="nama">Nama Lengkap</label>
-                    <input type="text" class="form-control" id="nama lengkap" name="nama" value="John Doe" readonly>
+                    <input type="text" class="form-control" id="nama lengkap" name="nama" value="Yusuf Siregar" readonly>
                 </div>
                 <div class="form-group">
                     <label for="nama">Alamat</label>
-                    <input type="text" class="form-control" id="alamat" name="nama" value="John Doe" readonly>
+                    <input type="text" class="form-control" id="alamat" name="nama" value="Kanoman" readonly>
                 </div>
                 <div class="form-group">
                     <label for="nama">Provinsi</label>
-                    <input type="text" class="form-control" id="Provinsi" name="nama" value="John Doe" readonly>
+                    <input type="text" class="form-control" id="Provinsi" name="nama" value="Daerah Istimewa Yogyakarta" readonly>
                 </div>
                 <div class="form-group">
                     <label for="nama">Kabupaten/Kota</label>
-                    <input type="text" class="form-control" id="kab" name="nama" value="John Doe" readonly>
+                    <input type="text" class="form-control" id="kab" name="nama" value="Kabupaten Sleman" readonly>
                 </div>
                 <div class="form-group">
                     <label for="nama">Kecamatan</label>
-                    <input type="text" class="form-control" id="Kecamatan" name="nama" value="John Doe" readonly>
+                    <input type="text" class="form-control" id="Kecamatan" name="nama" value="Depok" readonly>
                 </div>
                 <div class="form-group">
                     <label for="nama">Kode Pos</label>
-                    <input type="text" class="form-control" id="nama" name="nama" value="John Doe" readonly>
+                    <input type="text" class="form-control" id="nama" name="nama" value="55198" readonly>
                 </div>
                 <div class="buttonubah">
                     <button class="ubah-button" id="tombolUbah">Ubah</button>
