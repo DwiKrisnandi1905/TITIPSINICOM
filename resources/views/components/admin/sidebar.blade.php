@@ -32,7 +32,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">
+                    <a class="nav-link active">
                         <img src="{{ asset('/img/database1.svg') }}" class="logo-image" alt="Logo">
                         Data
                         <i class="bi bi-caret-down-fill data"></i>
@@ -43,14 +43,15 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">
+                    <a class="nav-link active">
                         <img src="{{ asset('/img/shopping-bag1.svg') }}" class="logo-image" alt="Logo">
                         Vendor
                         <i class="bi bi-caret-down-fill vendor"></i>
                     </a>
                     <ul class="sub-menu">
-                        <li><a href="#" style="color: white;">Customer</a></li>
-                        <li><a href="#" style="color: white;">Pengembalian</a></li>
+                        <li><a href="#" style="color: white;">Data Vendor</a></li>
+                        <li><a href="#" style="color: white;">Verifi Layanan</a></li>
+                        <li><a href="#" style="color: white;">Pick Up</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
