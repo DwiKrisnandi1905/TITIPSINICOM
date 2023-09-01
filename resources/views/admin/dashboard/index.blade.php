@@ -102,11 +102,6 @@
                                 <td>Data 8</td>
                                 <td>Data 9</td>
                             </tr>
-                            <tr>
-                                <td>Data 10</td>
-                                <td>Data 11</td>
-                                <td>Data 12</td>
-                            </tr>
                         </tbody>
                     </table>
                 </div>
@@ -144,11 +139,6 @@
                                 <td>Data 7</td>
                                 <td>Data 8</td>
                                 <td>Data 9</td>
-                            </tr>
-                            <tr>
-                                <td>Data 10</td>
-                                <td>Data 11</td>
-                                <td>Data 12</td>
                             </tr>
                         </tbody>
                     </table>
