@@ -29,16 +29,14 @@
             <div class="col-md-3">
                 @include('components.admin.sidebar')
             </div>
-            <div class="topbar sticky-top">
+            <div class="topbar">
                 <span class="notification-icon">
                     <a class="nav-link active" href="/admin/notification" style="color: black">
                         <i class="bi bi-bell"></i>
                     </a>
                 </span>
             </div>
-            <div class="col-md-9">
-                @yield('content')
-            </div>
+            @yield('content')
         </div>
     </div>
 
